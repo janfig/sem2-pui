@@ -8,8 +8,10 @@ import {RouterOutlet} from "@angular/router";
   standalone: true,
   imports: [CommonModule, NavBarComponent, RouterOutlet],
   template: `
+    <div class="main-outer-box">
     <app-nav-bar></app-nav-bar>
     <router-outlet></router-outlet>
+    </div>
   `,
   styleUrl: './main.component.scss'
 })
