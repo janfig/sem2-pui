@@ -88,7 +88,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.jfif",
       "altText": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate"
     }
   },
@@ -135,7 +135,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "enim incididunt tempor dolor culpa incididunt duis elit culpa aliquip laboris dolor"
     }
   },
@@ -162,7 +162,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "fugiat irure"
     }
   },
@@ -204,7 +204,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
     }
   },
@@ -236,7 +236,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
     }
   },
@@ -268,7 +268,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "magna eiusmod"
     }
   },
@@ -295,7 +295,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "enim adipisicing magna proident sit duis do duis nostrud ex"
     }
   },
@@ -332,7 +332,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
     }
   },
@@ -379,7 +379,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "proident non anim velit id"
     }
   },
@@ -411,7 +411,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
     }
   },
@@ -443,7 +443,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sit minim amet sunt officia qui adipisicing quis quis aute Lorem velit esse eu ea magna"
     }
   },
@@ -475,7 +475,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ex magna officia voluptate consectetur do et magna consequat anim incididunt"
     }
   },
@@ -507,7 +507,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "dolore duis incididunt"
     }
   },
@@ -554,7 +554,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "excepteur ullamco dolore ullamco enim minim aliqua velit eu irure cillum reprehenderit tempor est eu ipsum cillum laboris"
     }
   },
@@ -596,7 +596,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "eiusmod aliquip commodo consectetur pariatur sit in ut"
     }
   },
@@ -643,7 +643,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "deserunt quis et qui nisi nisi mollit excepteur pariatur eiusmod non dolor fugiat occaecat tempor ad ad cillum"
     }
   },
@@ -670,7 +670,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "consequat laboris adipisicing incididunt nulla cupidatat mollit culpa id excepteur ea reprehenderit sunt pariatur consequat aliqua"
     }
   },
@@ -717,7 +717,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "labore ea mollit laborum ullamco enim aute exercitation eiusmod culpa ex laboris ipsum aute"
     }
   },
@@ -749,7 +749,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "quis proident enim in dolore officia aute cupidatat"
     }
   },
@@ -791,7 +791,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "dolore nisi veniam sint eu aliquip ipsum"
     }
   },
@@ -823,7 +823,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ut labore proident cillum consectetur ipsum reprehenderit et aliquip"
     }
   },
@@ -860,7 +860,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "cillum pariatur reprehenderit amet incididunt eiusmod cupidatat minim ut veniam"
     }
   },
@@ -887,7 +887,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "dolore minim laboris"
     }
   },
@@ -924,7 +924,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "veniam sint ipsum duis"
     }
   },
@@ -951,7 +951,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ea nostrud ullamco irure do non labore dolore deserunt laboris nulla dolor esse eiusmod officia ea anim minim ad"
     }
   },
@@ -998,7 +998,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "in commodo labore irure tempor cillum dolor adipisicing tempor consequat id fugiat"
     }
   },
@@ -1025,7 +1025,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "dolor commodo aliquip voluptate Lorem sint id minim consectetur dolor enim"
     }
   },
@@ -1062,7 +1062,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "do et fugiat labore mollit magna minim deserunt aute"
     }
   },
@@ -1109,7 +1109,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "magna incididunt pariatur sit eu et fugiat duis ipsum cupidatat non laborum duis irure fugiat irure quis excepteur Lorem"
     }
   },
@@ -1146,7 +1146,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aute tempor ad ad ipsum sint aliquip officia anim minim sint proident"
     }
   },
@@ -1173,7 +1173,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "exercitation amet est nulla consectetur duis irure cupidatat sint in eu aliqua voluptate enim sit minim ut dolor"
     }
   },
@@ -1200,7 +1200,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "mollit culpa ut aute labore eu esse adipisicing qui voluptate nostrud Lorem enim laborum ipsum Lorem est qui sint"
     }
   },
@@ -1242,7 +1242,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "dolore velit enim in ut non occaecat sit minim nostrud"
     }
   },
@@ -1289,7 +1289,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aute reprehenderit dolor anim deserunt ex commodo culpa velit enim consectetur officia"
     }
   },
@@ -1321,7 +1321,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aliquip et et reprehenderit Lorem in labore nisi consequat eiusmod sit deserunt ex"
     }
   },
@@ -1353,7 +1353,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "deserunt amet duis esse fugiat dolor deserunt tempor dolore id voluptate occaecat elit id mollit"
     }
   },
@@ -1385,7 +1385,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "nulla et ipsum amet ad minim sit incididunt culpa laboris Lorem occaecat non culpa"
     }
   },
@@ -1412,7 +1412,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "reprehenderit elit"
     }
   },
@@ -1449,7 +1449,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "laboris amet occaecat nulla in elit magna et proident irure ut officia aliqua consequat ad et dolore consequat"
     }
   },
@@ -1481,7 +1481,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ex dolore tempor enim reprehenderit veniam id officia cupidatat adipisicing cillum enim labore ex enim officia eu culpa exercitation"
     }
   },
@@ -1508,7 +1508,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ipsum"
     }
   },
@@ -1555,7 +1555,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "amet magna irure excepteur aliqua est cupidatat ex esse dolor ea consequat ut voluptate dolore"
     }
   },
@@ -1592,7 +1592,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -1619,7 +1619,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "qui qui adipisicing veniam minim ex do aliquip in deserunt occaecat est cillum adipisicing elit occaecat labore magna magna"
     }
   },
@@ -1656,7 +1656,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ut incididunt laboris excepteur cupidatat velit ex amet aute adipisicing"
     }
   },
@@ -1703,7 +1703,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "esse cillum do"
     }
   },
@@ -1745,7 +1745,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sunt non magna consequat deserunt do mollit reprehenderit aliqua"
     }
   },
@@ -1787,7 +1787,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "exercitation deserunt Lorem occaecat veniam sunt culpa consequat nulla eu velit"
     }
   },
@@ -1824,7 +1824,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "amet sit ipsum commodo in laborum aliquip ad nulla nisi pariatur nostrud Lorem ut laboris aliquip quis mollit exercitation"
     }
   },
@@ -1871,7 +1871,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -1918,7 +1918,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sunt exercitation cupidatat elit excepteur est do sint pariatur Lorem dolore eu in in"
     }
   },
@@ -1965,7 +1965,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "reprehenderit culpa esse magna nisi laborum nostrud nisi anim ullamco est occaecat cupidatat adipisicing in veniam commodo commodo"
     }
   },
@@ -1992,7 +1992,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ut aute fugiat velit et eiusmod exercitation consectetur"
     }
   },
@@ -2034,7 +2034,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sit cillum eiusmod reprehenderit nostrud voluptate est"
     }
   },
@@ -2081,7 +2081,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ex"
     }
   },
@@ -2118,7 +2118,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "do sit mollit aliquip fugiat sint deserunt incididunt et deserunt voluptate"
     }
   },
@@ -2145,7 +2145,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "anim"
     }
   },
@@ -2187,7 +2187,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "nisi labore sit excepteur enim fugiat eiusmod ex amet officia id"
     }
   },
@@ -2224,7 +2224,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "consectetur duis culpa culpa fugiat tempor aliqua quis laborum qui ex laboris pariatur nulla Lorem sunt et"
     }
   },
@@ -2256,7 +2256,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "nostrud exercitation enim anim reprehenderit culpa incididunt id deserunt enim"
     }
   },
@@ -2288,7 +2288,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "excepteur nostrud duis ipsum nulla"
     }
   },
@@ -2315,7 +2315,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "commodo aliquip ipsum pariatur eu do"
     }
   },
@@ -2342,7 +2342,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "quis et exercitation exercitation qui mollit duis Lorem aliqua pariatur laborum irure officia amet minim do"
     }
   },
@@ -2374,7 +2374,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "excepteur qui irure adipisicing proident sit est"
     }
   },
@@ -2406,7 +2406,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "excepteur culpa consequat ipsum ad eiusmod sint"
     }
   },
@@ -2443,7 +2443,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "culpa irure anim nulla voluptate dolor incididunt velit nulla eu magna nisi Lorem veniam dolor in sunt"
     }
   },
@@ -2470,7 +2470,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "nulla enim adipisicing id duis ad ex id excepteur"
     }
   },
@@ -2517,7 +2517,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "consectetur magna commodo nulla id"
     }
   },
@@ -2549,7 +2549,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "non qui"
     }
   },
@@ -2576,7 +2576,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "est nisi minim consequat"
     }
   },
@@ -2613,7 +2613,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aliquip sunt et exercitation exercitation"
     }
   },
@@ -2650,7 +2650,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "irure adipisicing do esse labore esse quis dolor"
     }
   },
@@ -2677,7 +2677,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -2724,7 +2724,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "ipsum"
     }
   },
@@ -2761,7 +2761,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -2793,7 +2793,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aliqua fugiat Lorem pariatur nostrud nulla consequat non aliqua elit qui in sint excepteur do"
     }
   },
@@ -2840,7 +2840,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "non et qui commodo cillum consectetur"
     }
   },
@@ -2887,7 +2887,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "occaecat magna nisi laboris et esse"
     }
   },
@@ -2929,7 +2929,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "cillum ea ea velit irure magna aliqua elit do ut tempor anim aute minim irure laborum labore ut dolore"
     }
   },
@@ -2961,7 +2961,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sint labore proident tempor"
     }
   },
@@ -3008,7 +3008,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "occaecat sit occaecat exercitation mollit velit dolor consectetur nisi cillum est nostrud labore excepteur deserunt"
     }
   },
@@ -3035,7 +3035,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "sunt tempor in nisi reprehenderit sunt adipisicing occaecat nostrud cillum voluptate deserunt eu officia non nostrud do duis ad ipsum"
     }
   },
@@ -3062,7 +3062,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -3094,7 +3094,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "mollit eiusmod aliqua"
     }
   },
@@ -3131,7 +3131,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "quis"
     }
   },
@@ -3173,7 +3173,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "irure veniam elit velit amet et"
     }
   },
@@ -3205,7 +3205,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "nisi aliquip sit cupidatat sint sint"
     }
   },
@@ -3252,7 +3252,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "irure ut adipisicing laboris ex culpa nulla anim nisi irure elit"
     }
   },
@@ -3279,7 +3279,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "culpa velit dolore nostrud veniam"
     }
   },
@@ -3311,7 +3311,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "do amet duis culpa labore veniam officia laborum"
     }
   },
@@ -3338,7 +3338,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aliqua consectetur ipsum est sunt"
     }
   },
@@ -3370,7 +3370,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "voluptate ex occaecat non tempor nisi ea ipsum sit eiusmod veniam consectetur consequat irure voluptate pariatur sint in"
     }
   },
@@ -3412,7 +3412,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "in Lorem ex consectetur amet"
     }
   },
@@ -3454,7 +3454,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "eiusmod sunt deserunt minim nisi irure in eiusmod minim ea sunt labore nostrud ut officia laboris ea ex ad laboris"
     }
   },
@@ -3486,7 +3486,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "minim voluptate esse amet"
     }
   },
@@ -3533,7 +3533,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "labore cillum veniam est culpa"
     }
   },
@@ -3580,7 +3580,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "exercitation occaecat occaecat adipisicing laboris minim proident ea deserunt est aliquip amet elit"
     }
   },
@@ -3607,7 +3607,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aliqua dolor amet ex ullamco aute excepteur exercitation mollit id et minim dolore Lorem fugiat culpa laborum exercitation commodo pariatur"
     }
   },
@@ -3634,7 +3634,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": ""
     }
   },
@@ -3666,7 +3666,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "/assets/images/pepe.jfif",
       "altText": "aute sunt minim velit elit excepteur Lorem magna in minim laborum nisi consequat et ad"
     }
   }
