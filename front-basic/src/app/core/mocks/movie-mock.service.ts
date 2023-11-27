@@ -69,7 +69,7 @@ const mockMovies: Movie[] = [
     "rating": 2.7,
     "numberOfRatings": 1966506,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "dolore qui adipisicing magna laboris irure ipsum incididunt et dolor nulla sunt incididunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Lilla",
@@ -88,7 +88,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate"
     }
   },
@@ -106,7 +106,7 @@ const mockMovies: Movie[] = [
     "rating": 4.86,
     "numberOfRatings": 9664378,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "reprehenderit est ipsum pariatur consequat et in ullamco minim laboris",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Roger",
@@ -135,7 +135,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "enim incididunt tempor dolor culpa incididunt duis elit culpa aliquip laboris dolor"
     }
   },
@@ -153,7 +153,7 @@ const mockMovies: Movie[] = [
     "rating": 2.88,
     "numberOfRatings": 6374756,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "dolore qui nisi elit eiusmod consequat in",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Hanna",
@@ -162,7 +162,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "fugiat irure"
     }
   },
@@ -180,7 +180,7 @@ const mockMovies: Movie[] = [
     "rating": 4.42,
     "numberOfRatings": 3056973,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "mollit excepteur commodo ipsum nostrud proident laborum excepteur ad cupidatat deserunt amet id cillum amet in consequat",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Józefina",
@@ -204,7 +204,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
     }
   },
@@ -222,7 +222,7 @@ const mockMovies: Movie[] = [
     "rating": 2.34,
     "numberOfRatings": 459187,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "elit pariatur quis nulla veniam excepteur eu deserunt proident commodo sint nostrud minim deserunt aliqua fugiat esse fugiat duis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Arkady",
@@ -236,7 +236,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
     }
   },
@@ -254,7 +254,7 @@ const mockMovies: Movie[] = [
     "rating": 3.92,
     "numberOfRatings": 712485,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "exercitation sunt anim Lorem aute",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Lilia",
@@ -268,7 +268,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "magna eiusmod"
     }
   },
@@ -286,7 +286,7 @@ const mockMovies: Movie[] = [
     "rating": 4.1,
     "numberOfRatings": 2663244,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "dolore minim cillum fugiat amet enim et anim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Helena",
@@ -295,7 +295,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "enim adipisicing magna proident sit duis do duis nostrud ex"
     }
   },
@@ -313,7 +313,7 @@ const mockMovies: Movie[] = [
     "rating": 1.04,
     "numberOfRatings": 707330,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "proident esse excepteur esse incididunt mollit Lorem nulla ipsum in nisi duis ullamco velit ut sit Lorem veniam",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Daniel",
@@ -332,7 +332,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
     }
   },
@@ -350,7 +350,7 @@ const mockMovies: Movie[] = [
     "rating": 1.55,
     "numberOfRatings": 898232,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laboris consectetur ullamco adipisicing tempor commodo consectetur sunt aliquip veniam laboris sunt culpa ullamco",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Kira",
@@ -379,7 +379,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "proident non anim velit id"
     }
   },
@@ -397,7 +397,7 @@ const mockMovies: Movie[] = [
     "rating": 4.3,
     "numberOfRatings": 7303122,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "et ipsum irure sit incididunt do ex mollit do aliquip ea commodo eu labore adipisicing tempor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Makary",
@@ -411,7 +411,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
     }
   },
@@ -429,7 +429,7 @@ const mockMovies: Movie[] = [
     "rating": 1.8,
     "numberOfRatings": 4872287,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Dorota",
@@ -443,7 +443,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sit minim amet sunt officia qui adipisicing quis quis aute Lorem velit esse eu ea magna"
     }
   },
@@ -461,7 +461,7 @@ const mockMovies: Movie[] = [
     "rating": 4.05,
     "numberOfRatings": 8189035,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "amet ullamco ea eu duis voluptate laboris esse eu nulla nulla officia aliquip cillum labore duis consectetur nisi",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ignacy",
@@ -475,7 +475,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ex magna officia voluptate consectetur do et magna consequat anim incididunt"
     }
   },
@@ -493,7 +493,7 @@ const mockMovies: Movie[] = [
     "rating": 2.98,
     "numberOfRatings": 6093523,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "ea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Leila",
@@ -507,7 +507,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "dolore duis incididunt"
     }
   },
@@ -525,7 +525,7 @@ const mockMovies: Movie[] = [
     "rating": 1.38,
     "numberOfRatings": 1915029,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "consequat non culpa anim anim cupidatat ut fugiat ipsum ea in eiusmod culpa ea occaecat et nulla pariatur",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Anna",
@@ -554,7 +554,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "excepteur ullamco dolore ullamco enim minim aliqua velit eu irure cillum reprehenderit tempor est eu ipsum cillum laboris"
     }
   },
@@ -572,7 +572,7 @@ const mockMovies: Movie[] = [
     "rating": 3.91,
     "numberOfRatings": 825191,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "velit laboris ad velit voluptate laborum incididunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Randolf",
@@ -596,7 +596,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "eiusmod aliquip commodo consectetur pariatur sit in ut"
     }
   },
@@ -614,7 +614,7 @@ const mockMovies: Movie[] = [
     "rating": 4.72,
     "numberOfRatings": 3646816,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "commodo qui proident",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Kornel",
@@ -643,7 +643,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "deserunt quis et qui nisi nisi mollit excepteur pariatur eiusmod non dolor fugiat occaecat tempor ad ad cillum"
     }
   },
@@ -661,7 +661,7 @@ const mockMovies: Movie[] = [
     "rating": 1.84,
     "numberOfRatings": 6397377,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "reprehenderit in nulla veniam amet",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ludwik",
@@ -670,7 +670,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "consequat laboris adipisicing incididunt nulla cupidatat mollit culpa id excepteur ea reprehenderit sunt pariatur consequat aliqua"
     }
   },
@@ -717,7 +717,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "labore ea mollit laborum ullamco enim aute exercitation eiusmod culpa ex laboris ipsum aute"
     }
   },
@@ -735,7 +735,7 @@ const mockMovies: Movie[] = [
     "rating": 4.55,
     "numberOfRatings": 1518113,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "voluptate anim labore aliqua ullamco consectetur cupidatat eu commodo nostrud",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Bertram",
@@ -749,7 +749,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "quis proident enim in dolore officia aute cupidatat"
     }
   },
@@ -767,7 +767,7 @@ const mockMovies: Movie[] = [
     "rating": 1.33,
     "numberOfRatings": 9926938,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "ullamco minim reprehenderit officia sint proident nulla duis irure nisi nisi cupidatat enim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Lea",
@@ -791,7 +791,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "dolore nisi veniam sint eu aliquip ipsum"
     }
   },
@@ -809,7 +809,7 @@ const mockMovies: Movie[] = [
     "rating": 1.48,
     "numberOfRatings": 3993652,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "proident ullamco veniam in deserunt veniam excepteur est",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Piotr",
@@ -823,7 +823,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ut labore proident cillum consectetur ipsum reprehenderit et aliquip"
     }
   },
@@ -841,7 +841,7 @@ const mockMovies: Movie[] = [
     "rating": 1.51,
     "numberOfRatings": 3286114,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "consequat dolor veniam reprehenderit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Gonsalwy",
@@ -860,7 +860,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "cillum pariatur reprehenderit amet incididunt eiusmod cupidatat minim ut veniam"
     }
   },
@@ -878,7 +878,7 @@ const mockMovies: Movie[] = [
     "rating": 3.64,
     "numberOfRatings": 6368831,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "adipisicing veniam",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Rufina",
@@ -887,7 +887,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "dolore minim laboris"
     }
   },
@@ -905,7 +905,7 @@ const mockMovies: Movie[] = [
     "rating": 1.42,
     "numberOfRatings": 9117887,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "fugiat consectetur eu dolor consequat amet officia consectetur ipsum labore officia incididunt mollit sint amet adipisicing incididunt quis ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Daria",
@@ -924,7 +924,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "veniam sint ipsum duis"
     }
   },
@@ -942,7 +942,7 @@ const mockMovies: Movie[] = [
     "rating": 3.42,
     "numberOfRatings": 328934,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "ipsum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Florencja",
@@ -951,7 +951,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ea nostrud ullamco irure do non labore dolore deserunt laboris nulla dolor esse eiusmod officia ea anim minim ad"
     }
   },
@@ -969,7 +969,7 @@ const mockMovies: Movie[] = [
     "rating": 4.06,
     "numberOfRatings": 1126257,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Izydor",
@@ -998,7 +998,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "in commodo labore irure tempor cillum dolor adipisicing tempor consequat id fugiat"
     }
   },
@@ -1016,7 +1016,7 @@ const mockMovies: Movie[] = [
     "rating": 1.47,
     "numberOfRatings": 5220175,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "est culpa magna consequat occaecat ut ipsum reprehenderit quis pariatur do tempor labore do laboris deserunt qui irure dolore reprehenderit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Arystarch",
@@ -1025,7 +1025,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "dolor commodo aliquip voluptate Lorem sint id minim consectetur dolor enim"
     }
   },
@@ -1043,7 +1043,7 @@ const mockMovies: Movie[] = [
     "rating": 3.57,
     "numberOfRatings": 9822764,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aute occaecat exercitation magna qui ipsum ex minim amet nulla labore ipsum consectetur sit nostrud deserunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Jadwiga",
@@ -1062,7 +1062,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "do et fugiat labore mollit magna minim deserunt aute"
     }
   },
@@ -1080,7 +1080,7 @@ const mockMovies: Movie[] = [
     "rating": 4.4,
     "numberOfRatings": 1172055,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "anim ipsum Lorem deserunt non ipsum ex irure occaecat sunt qui dolor cillum irure sit velit dolore esse nulla",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ksawery",
@@ -1109,7 +1109,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "magna incididunt pariatur sit eu et fugiat duis ipsum cupidatat non laborum duis irure fugiat irure quis excepteur Lorem"
     }
   },
@@ -1127,7 +1127,7 @@ const mockMovies: Movie[] = [
     "rating": 1.9,
     "numberOfRatings": 8549886,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "nulla anim exercitation qui velit dolore dolor nostrud irure adipisicing dolor ea eu culpa qui",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ksenia",
@@ -1146,7 +1146,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aute tempor ad ad ipsum sint aliquip officia anim minim sint proident"
     }
   },
@@ -1164,7 +1164,7 @@ const mockMovies: Movie[] = [
     "rating": 2.31,
     "numberOfRatings": 4896128,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "velit ipsum minim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Sara",
@@ -1173,7 +1173,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "exercitation amet est nulla consectetur duis irure cupidatat sint in eu aliqua voluptate enim sit minim ut dolor"
     }
   },
@@ -1191,7 +1191,7 @@ const mockMovies: Movie[] = [
     "rating": 4.62,
     "numberOfRatings": 4346612,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "id sunt id eiusmod magna reprehenderit cillum sunt reprehenderit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Oliwier",
@@ -1200,7 +1200,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "mollit culpa ut aute labore eu esse adipisicing qui voluptate nostrud Lorem enim laborum ipsum Lorem est qui sint"
     }
   },
@@ -1218,7 +1218,7 @@ const mockMovies: Movie[] = [
     "rating": 4.33,
     "numberOfRatings": 1947990,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "quis velit ut do culpa duis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Jan",
@@ -1242,7 +1242,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "dolore velit enim in ut non occaecat sit minim nostrud"
     }
   },
@@ -1260,7 +1260,7 @@ const mockMovies: Movie[] = [
     "rating": 4.14,
     "numberOfRatings": 2338995,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "quis est culpa pariatur est mollit Lorem est enim do eu aliquip nostrud anim do",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Alicja",
@@ -1289,7 +1289,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aute reprehenderit dolor anim deserunt ex commodo culpa velit enim consectetur officia"
     }
   },
@@ -1307,7 +1307,7 @@ const mockMovies: Movie[] = [
     "rating": 1.39,
     "numberOfRatings": 3533216,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eiusmod ipsum incididunt tempor excepteur",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Beatrycze",
@@ -1321,7 +1321,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aliquip et et reprehenderit Lorem in labore nisi consequat eiusmod sit deserunt ex"
     }
   },
@@ -1339,7 +1339,7 @@ const mockMovies: Movie[] = [
     "rating": 1.59,
     "numberOfRatings": 2250971,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "labore velit sunt adipisicing ipsum exercitation laborum est fugiat anim dolore dolore commodo est cupidatat veniam ut magna elit quis",
+    "description": "lLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Weronika",
@@ -1353,7 +1353,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "deserunt amet duis esse fugiat dolor deserunt tempor dolore id voluptate occaecat elit id mollit"
     }
   },
@@ -1371,7 +1371,7 @@ const mockMovies: Movie[] = [
     "rating": 4.52,
     "numberOfRatings": 9660321,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "veniam in sint dolore minim duis nulla eu ipsum id elit aliqua mollit enim deserunt in qui pariatur et",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Zoe",
@@ -1385,7 +1385,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "nulla et ipsum amet ad minim sit incididunt culpa laboris Lorem occaecat non culpa"
     }
   },
@@ -1403,7 +1403,7 @@ const mockMovies: Movie[] = [
     "rating": 3.61,
     "numberOfRatings": 8521600,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "sit nisi eiusmod sint",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ksawery",
@@ -1412,7 +1412,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "reprehenderit elit"
     }
   },
@@ -1430,7 +1430,7 @@ const mockMovies: Movie[] = [
     "rating": 4.25,
     "numberOfRatings": 5588254,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Bertram",
@@ -1449,7 +1449,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "laboris amet occaecat nulla in elit magna et proident irure ut officia aliqua consequat ad et dolore consequat"
     }
   },
@@ -1467,7 +1467,7 @@ const mockMovies: Movie[] = [
     "rating": 4.89,
     "numberOfRatings": 4736499,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laboris elit sunt occaecat et et deserunt in consectetur ipsum ipsum sit eiusmod",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Eugenia",
@@ -1481,7 +1481,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ex dolore tempor enim reprehenderit veniam id officia cupidatat adipisicing cillum enim labore ex enim officia eu culpa exercitation"
     }
   },
@@ -1499,7 +1499,7 @@ const mockMovies: Movie[] = [
     "rating": 4.79,
     "numberOfRatings": 2824344,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laboris officia quis aliqua velit aute commodo consequat laboris nisi tempor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Róża",
@@ -1508,7 +1508,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ipsum"
     }
   },
@@ -1526,7 +1526,7 @@ const mockMovies: Movie[] = [
     "rating": 2.69,
     "numberOfRatings": 9674869,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "elit id laboris elit sunt dolor consequat dolor ullamco in ullamco incididunt laborum commodo nisi magna fugiat cupidatat incididunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Klementyna",
@@ -1555,7 +1555,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "amet magna irure excepteur aliqua est cupidatat ex esse dolor ea consequat ut voluptate dolore"
     }
   },
@@ -1573,7 +1573,7 @@ const mockMovies: Movie[] = [
     "rating": 3.58,
     "numberOfRatings": 2795576,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "ut officia reprehenderit ut do aute culpa amet magna quis deserunt sit enim pariatur ullamco nulla fugiat qui amet labore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Konrad",
@@ -1592,7 +1592,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -1610,7 +1610,7 @@ const mockMovies: Movie[] = [
     "rating": 4.56,
     "numberOfRatings": 9829791,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "nostrud do consequat ullamco",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Agnieszka",
@@ -1619,7 +1619,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "qui qui adipisicing veniam minim ex do aliquip in deserunt occaecat est cillum adipisicing elit occaecat labore magna magna"
     }
   },
@@ -1637,7 +1637,7 @@ const mockMovies: Movie[] = [
     "rating": 3.06,
     "numberOfRatings": 264391,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "cillum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Marek",
@@ -1656,7 +1656,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ut incididunt laboris excepteur cupidatat velit ex amet aute adipisicing"
     }
   },
@@ -1674,7 +1674,7 @@ const mockMovies: Movie[] = [
     "rating": 3.32,
     "numberOfRatings": 8998260,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eu eiusmod qui irure eu enim occaecat et est tempor velit laborum minim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Zachariasz",
@@ -1703,7 +1703,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "esse cillum do"
     }
   },
@@ -1721,7 +1721,7 @@ const mockMovies: Movie[] = [
     "rating": 1.63,
     "numberOfRatings": 4879428,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "est est dolore amet excepteur dolore exercitation in ullamco aliquip excepteur aute minim aliquip ut veniam adipisicing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Lucjan",
@@ -1745,7 +1745,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sunt non magna consequat deserunt do mollit reprehenderit aliqua"
     }
   },
@@ -1763,7 +1763,7 @@ const mockMovies: Movie[] = [
     "rating": 2.01,
     "numberOfRatings": 8391472,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "labore est et ut commodo labore incididunt ut proident aliqua minim ea non magna in sit aliqua exercitation amet",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Witalis",
@@ -1787,7 +1787,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "exercitation deserunt Lorem occaecat veniam sunt culpa consequat nulla eu velit"
     }
   },
@@ -1805,7 +1805,7 @@ const mockMovies: Movie[] = [
     "rating": 4.81,
     "numberOfRatings": 4687378,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "dolor sit eu ad incididunt sunt aute magna laborum nostrud laborum laborum veniam velit consectetur Lorem cupidatat velit",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Nazariusz",
@@ -1824,7 +1824,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "amet sit ipsum commodo in laborum aliquip ad nulla nisi pariatur nostrud Lorem ut laboris aliquip quis mollit exercitation"
     }
   },
@@ -1842,7 +1842,7 @@ const mockMovies: Movie[] = [
     "rating": 3.76,
     "numberOfRatings": 5875704,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "mollit Lorem commodo commodo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Eugenia",
@@ -1871,7 +1871,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -1889,7 +1889,7 @@ const mockMovies: Movie[] = [
     "rating": 3.01,
     "numberOfRatings": 120054,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eu nulla magna voluptate tempor cupidatat consectetur labore reprehenderit eu ad nostrud officia commodo nisi do elit culpa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Hugo",
@@ -1918,7 +1918,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sunt exercitation cupidatat elit excepteur est do sint pariatur Lorem dolore eu in in"
     }
   },
@@ -1936,7 +1936,7 @@ const mockMovies: Movie[] = [
     "rating": 1.37,
     "numberOfRatings": 8194471,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "id pariatur elit fugiat occaecat sit commodo sit reprehenderit ea id consectetur irure",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Malwina",
@@ -1965,7 +1965,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "reprehenderit culpa esse magna nisi laborum nostrud nisi anim ullamco est occaecat cupidatat adipisicing in veniam commodo commodo"
     }
   },
@@ -1983,7 +1983,7 @@ const mockMovies: Movie[] = [
     "rating": 1.37,
     "numberOfRatings": 4930155,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "duis labore irure est mollit minim culpa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Sylwia",
@@ -1992,7 +1992,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ut aute fugiat velit et eiusmod exercitation consectetur"
     }
   },
@@ -2010,7 +2010,7 @@ const mockMovies: Movie[] = [
     "rating": 3.75,
     "numberOfRatings": 6577852,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "qui qui duis sint adipisicing minim ut exercitation aute",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Żaneta",
@@ -2034,7 +2034,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sit cillum eiusmod reprehenderit nostrud voluptate est"
     }
   },
@@ -2052,7 +2052,7 @@ const mockMovies: Movie[] = [
     "rating": 1.61,
     "numberOfRatings": 2788906,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "cillum",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Demetriusz",
@@ -2081,7 +2081,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ex"
     }
   },
@@ -2099,7 +2099,7 @@ const mockMovies: Movie[] = [
     "rating": 1.54,
     "numberOfRatings": 9700528,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "sint amet officia tempor",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Róża",
@@ -2118,7 +2118,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "do sit mollit aliquip fugiat sint deserunt incididunt et deserunt voluptate"
     }
   },
@@ -2136,7 +2136,7 @@ const mockMovies: Movie[] = [
     "rating": 3.02,
     "numberOfRatings": 5447678,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "fugiat ex Lorem consectetur anim magna ea sit labore proident enim quis commodo officia esse ullamco",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Walentyn",
@@ -2145,7 +2145,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "anim"
     }
   },
@@ -2163,7 +2163,7 @@ const mockMovies: Movie[] = [
     "rating": 1.6,
     "numberOfRatings": 151350,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "veniam non minim eiusmod laboris Lorem dolore irure tempor dolor amet",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Krystian",
@@ -2187,7 +2187,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "nisi labore sit excepteur enim fugiat eiusmod ex amet officia id"
     }
   },
@@ -2205,7 +2205,7 @@ const mockMovies: Movie[] = [
     "rating": 3.59,
     "numberOfRatings": 8219613,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aliquip nulla excepteur quis labore amet duis officia veniam qui sunt ipsum dolore velit amet nulla elit officia non",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Nadzieja",
@@ -2224,7 +2224,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "consectetur duis culpa culpa fugiat tempor aliqua quis laborum qui ex laboris pariatur nulla Lorem sunt et"
     }
   },
@@ -2242,7 +2242,7 @@ const mockMovies: Movie[] = [
     "rating": 1.77,
     "numberOfRatings": 9406810,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "magna esse sint ut minim cillum laborum Lorem sint est commodo officia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Irena",
@@ -2256,7 +2256,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "nostrud exercitation enim anim reprehenderit culpa incididunt id deserunt enim"
     }
   },
@@ -2274,7 +2274,7 @@ const mockMovies: Movie[] = [
     "rating": 1.4,
     "numberOfRatings": 1075439,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laboris officia nisi qui commodo do enim occaecat",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Katarzyna",
@@ -2288,7 +2288,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "excepteur nostrud duis ipsum nulla"
     }
   },
@@ -2306,7 +2306,7 @@ const mockMovies: Movie[] = [
     "rating": 3.29,
     "numberOfRatings": 9948133,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "elit sunt nulla fugiat cupidatat dolor tempor amet irure ut culpa elit qui nulla ea",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Eleonora",
@@ -2315,7 +2315,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "commodo aliquip ipsum pariatur eu do"
     }
   },
@@ -2333,7 +2333,7 @@ const mockMovies: Movie[] = [
     "rating": 1.36,
     "numberOfRatings": 3853799,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aliquip reprehenderit consequat sunt reprehenderit cupidatat voluptate aliquip sint ad Lorem velit et adipisicing quis mollit culpa non anim labore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Henryka",
@@ -2342,7 +2342,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "quis et exercitation exercitation qui mollit duis Lorem aliqua pariatur laborum irure officia amet minim do"
     }
   },
@@ -2360,7 +2360,7 @@ const mockMovies: Movie[] = [
     "rating": 1.15,
     "numberOfRatings": 726505,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "enim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Monika",
@@ -2374,7 +2374,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "excepteur qui irure adipisicing proident sit est"
     }
   },
@@ -2392,7 +2392,7 @@ const mockMovies: Movie[] = [
     "rating": 1.58,
     "numberOfRatings": 3211389,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "in aliquip ex fugiat ipsum consectetur laborum dolore occaecat id aliqua et irure voluptate adipisicing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Nikodem",
@@ -2406,7 +2406,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "excepteur culpa consequat ipsum ad eiusmod sint"
     }
   },
@@ -2424,7 +2424,7 @@ const mockMovies: Movie[] = [
     "rating": 1.13,
     "numberOfRatings": 8868449,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aliqua duis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ryszard",
@@ -2443,7 +2443,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "culpa irure anim nulla voluptate dolor incididunt velit nulla eu magna nisi Lorem veniam dolor in sunt"
     }
   },
@@ -2461,7 +2461,7 @@ const mockMovies: Movie[] = [
     "rating": 3.03,
     "numberOfRatings": 9971055,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "labore anim aliqua",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Eudokia",
@@ -2470,7 +2470,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "nulla enim adipisicing id duis ad ex id excepteur"
     }
   },
@@ -2488,7 +2488,7 @@ const mockMovies: Movie[] = [
     "rating": 3.34,
     "numberOfRatings": 7844698,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aliquip velit anim Lorem voluptate et officia culpa magna consequat ad",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Antoni",
@@ -2517,7 +2517,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "consectetur magna commodo nulla id"
     }
   },
@@ -2535,7 +2535,7 @@ const mockMovies: Movie[] = [
     "rating": 3.58,
     "numberOfRatings": 5931064,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "fugiat do sint quis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Leon",
@@ -2549,7 +2549,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "non qui"
     }
   },
@@ -2567,7 +2567,7 @@ const mockMovies: Movie[] = [
     "rating": 1.59,
     "numberOfRatings": 4826865,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "nisi pariatur fugiat pariatur nostrud aute sint ut mollit ut anim sunt magna aliquip officia aute",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Matylda",
@@ -2576,7 +2576,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "est nisi minim consequat"
     }
   },
@@ -2594,7 +2594,7 @@ const mockMovies: Movie[] = [
     "rating": 3.03,
     "numberOfRatings": 4639081,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "pariatur dolor labore labore laboris dolor incididunt exercitation cillum minim ad dolore ipsum nisi magna",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Tamara",
@@ -2613,7 +2613,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aliquip sunt et exercitation exercitation"
     }
   },
@@ -2631,7 +2631,7 @@ const mockMovies: Movie[] = [
     "rating": 2.68,
     "numberOfRatings": 7347807,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "aute consectetur consectetur ullamco sint velit officia",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Lilla",
@@ -2650,7 +2650,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "irure adipisicing do esse labore esse quis dolor"
     }
   },
@@ -2668,7 +2668,7 @@ const mockMovies: Movie[] = [
     "rating": 3.59,
     "numberOfRatings": 9340050,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "dolore sit ex Lorem tempor velit et esse",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Monika",
@@ -2677,7 +2677,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -2695,7 +2695,7 @@ const mockMovies: Movie[] = [
     "rating": 3.7,
     "numberOfRatings": 268597,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "anim deserunt culpa cillum ullamco sint adipisicing esse",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Wirginia",
@@ -2724,7 +2724,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "ipsum"
     }
   },
@@ -2742,7 +2742,7 @@ const mockMovies: Movie[] = [
     "rating": 3.08,
     "numberOfRatings": 2025223,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "voluptate labore ipsum ullamco nisi sunt tempor in",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Walter",
@@ -2761,7 +2761,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -2779,7 +2779,7 @@ const mockMovies: Movie[] = [
     "rating": 2.81,
     "numberOfRatings": 135404,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "mollit voluptate reprehenderit in nulla consectetur duis veniam pariatur tempor Lorem quis",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Agata",
@@ -2793,7 +2793,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aliqua fugiat Lorem pariatur nostrud nulla consequat non aliqua elit qui in sint excepteur do"
     }
   },
@@ -2811,7 +2811,7 @@ const mockMovies: Movie[] = [
     "rating": 3.04,
     "numberOfRatings": 2806549,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "pariatur cupidatat et sit labore sint amet dolore incididunt enim cillum deserunt dolor officia exercitation eu enim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Katarzyna",
@@ -2840,7 +2840,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "non et qui commodo cillum consectetur"
     }
   },
@@ -2858,7 +2858,7 @@ const mockMovies: Movie[] = [
     "rating": 1.62,
     "numberOfRatings": 9817720,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laborum enim anim minim amet ad Lorem exercitation id fugiat nisi ex",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ksenia",
@@ -2887,7 +2887,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "occaecat magna nisi laboris et esse"
     }
   },
@@ -2905,7 +2905,7 @@ const mockMovies: Movie[] = [
     "rating": 1.63,
     "numberOfRatings": 5221521,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "esse mollit cupidatat est duis tempor aliquip nulla ut et nostrud occaecat",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Wacław",
@@ -2929,7 +2929,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "cillum ea ea velit irure magna aliqua elit do ut tempor anim aute minim irure laborum labore ut dolore"
     }
   },
@@ -2947,7 +2947,7 @@ const mockMovies: Movie[] = [
     "rating": 1.6,
     "numberOfRatings": 1266130,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "adipisicing cillum eiusmod consectetur commodo fugiat quis ipsum veniam labore deserunt sint deserunt fugiat sunt dolor sint fugiat adipisicing",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Greta",
@@ -2961,7 +2961,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sint labore proident tempor"
     }
   },
@@ -2979,7 +2979,7 @@ const mockMovies: Movie[] = [
     "rating": 4.39,
     "numberOfRatings": 7223482,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "deserunt aliqua anim ea et minim",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Arystarch",
@@ -3008,7 +3008,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "occaecat sit occaecat exercitation mollit velit dolor consectetur nisi cillum est nostrud labore excepteur deserunt"
     }
   },
@@ -3026,7 +3026,7 @@ const mockMovies: Movie[] = [
     "rating": 3.13,
     "numberOfRatings": 4509744,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "velit adipisicing et anim sunt id do aliqua id enim in culpa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Izabela",
@@ -3035,7 +3035,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "sunt tempor in nisi reprehenderit sunt adipisicing occaecat nostrud cillum voluptate deserunt eu officia non nostrud do duis ad ipsum"
     }
   },
@@ -3053,7 +3053,7 @@ const mockMovies: Movie[] = [
     "rating": 3.79,
     "numberOfRatings": 2309686,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "incididunt esse veniam cupidatat in veniam velit commodo proident eiusmod ad ut velit incididunt occaecat excepteur",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Walenty",
@@ -3062,7 +3062,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -3080,7 +3080,7 @@ const mockMovies: Movie[] = [
     "rating": 1.89,
     "numberOfRatings": 1276832,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laboris sunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Maria",
@@ -3094,7 +3094,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "mollit eiusmod aliqua"
     }
   },
@@ -3112,7 +3112,7 @@ const mockMovies: Movie[] = [
     "rating": 3.86,
     "numberOfRatings": 5171721,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "adipisicing et tempor et ullamco amet ullamco",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Izabela",
@@ -3131,7 +3131,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "quis"
     }
   },
@@ -3149,7 +3149,7 @@ const mockMovies: Movie[] = [
     "rating": 2.08,
     "numberOfRatings": 8707355,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "nulla aliqua enim sint consectetur sunt fugiat excepteur sunt aliquip officia laborum magna",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ferdynanda",
@@ -3173,7 +3173,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "irure veniam elit velit amet et"
     }
   },
@@ -3191,7 +3191,7 @@ const mockMovies: Movie[] = [
     "rating": 1.46,
     "numberOfRatings": 2609526,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "fugiat qui labore et incididunt et consectetur ad commodo occaecat veniam proident magna esse nisi culpa sunt culpa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Renata",
@@ -3205,7 +3205,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "nisi aliquip sit cupidatat sint sint"
     }
   },
@@ -3223,7 +3223,7 @@ const mockMovies: Movie[] = [
     "rating": 4.33,
     "numberOfRatings": 7586111,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "qui",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Sylwia",
@@ -3252,7 +3252,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "irure ut adipisicing laboris ex culpa nulla anim nisi irure elit"
     }
   },
@@ -3270,7 +3270,7 @@ const mockMovies: Movie[] = [
     "rating": 2.54,
     "numberOfRatings": 3586076,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eiusmod nisi proident irure dolore esse qui minim minim cillum sint sunt est ut id nulla excepteur aliqua pariatur non",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Ida",
@@ -3279,7 +3279,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "culpa velit dolore nostrud veniam"
     }
   },
@@ -3297,7 +3297,7 @@ const mockMovies: Movie[] = [
     "rating": 1.15,
     "numberOfRatings": 559975,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "mollit et mollit veniam nisi sunt eiusmod",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Krystyna",
@@ -3311,7 +3311,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "do amet duis culpa labore veniam officia laborum"
     }
   },
@@ -3329,7 +3329,7 @@ const mockMovies: Movie[] = [
     "rating": 1.08,
     "numberOfRatings": 3634332,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eu ad amet magna officia ipsum ea nostrud pariatur ea sit exercitation fugiat esse",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Zuzanna",
@@ -3338,7 +3338,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aliqua consectetur ipsum est sunt"
     }
   },
@@ -3356,7 +3356,7 @@ const mockMovies: Movie[] = [
     "rating": 4.74,
     "numberOfRatings": 3661055,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "adipisicing ipsum sint qui minim excepteur in pariatur commodo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Larysa",
@@ -3370,7 +3370,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "voluptate ex occaecat non tempor nisi ea ipsum sit eiusmod veniam consectetur consequat irure voluptate pariatur sint in"
     }
   },
@@ -3388,7 +3388,7 @@ const mockMovies: Movie[] = [
     "rating": 4.95,
     "numberOfRatings": 7534413,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "tempor et ex aliquip in culpa voluptate esse quis quis mollit labore",
+    "description": "tLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Karolina",
@@ -3412,7 +3412,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "in Lorem ex consectetur amet"
     }
   },
@@ -3430,7 +3430,7 @@ const mockMovies: Movie[] = [
     "rating": 2.6,
     "numberOfRatings": 7594717,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "laborum ex qui culpa mollit cupidatat dolor exercitation labore irure commodo consequat deserunt est mollit do laboris",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Florencja",
@@ -3454,7 +3454,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "eiusmod sunt deserunt minim nisi irure in eiusmod minim ea sunt labore nostrud ut officia laboris ea ex ad laboris"
     }
   },
@@ -3472,7 +3472,7 @@ const mockMovies: Movie[] = [
     "rating": 4.84,
     "numberOfRatings": 9776714,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "tempor tempor in minim laboris",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Sara",
@@ -3486,7 +3486,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "minim voluptate esse amet"
     }
   },
@@ -3504,7 +3504,7 @@ const mockMovies: Movie[] = [
     "rating": 2.84,
     "numberOfRatings": 9587273,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "proident do magna anim non aliqua irure non nostrud tempor dolor deserunt culpa minim aliqua minim consectetur nostrud",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Izajasz",
@@ -3533,7 +3533,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "labore cillum veniam est culpa"
     }
   },
@@ -3551,7 +3551,7 @@ const mockMovies: Movie[] = [
     "rating": 2.98,
     "numberOfRatings": 4194464,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "officia et id amet esse sunt deserunt aliqua ipsum pariatur Lorem reprehenderit magna fugiat Lorem ut",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Aleksander",
@@ -3580,7 +3580,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "exercitation occaecat occaecat adipisicing laboris minim proident ea deserunt est aliquip amet elit"
     }
   },
@@ -3598,7 +3598,7 @@ const mockMovies: Movie[] = [
     "rating": 4.64,
     "numberOfRatings": 5851695,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "consequat sunt incididunt laboris voluptate nulla minim adipisicing aliqua nisi do pariatur",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Miron",
@@ -3607,7 +3607,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aliqua dolor amet ex ullamco aute excepteur exercitation mollit id et minim dolore Lorem fugiat culpa laborum exercitation commodo pariatur"
     }
   },
@@ -3625,7 +3625,7 @@ const mockMovies: Movie[] = [
     "rating": 4.55,
     "numberOfRatings": 8948006,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "et fugiat aliquip labore nostrud fugiat veniam esse deserunt",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Klaudia",
@@ -3634,7 +3634,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": ""
     }
   },
@@ -3652,7 +3652,7 @@ const mockMovies: Movie[] = [
     "rating": 1.35,
     "numberOfRatings": 2864271,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "eiusmod voluptate voluptate in reprehenderit fugiat",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Malwina",
@@ -3666,11 +3666,12 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "pepe.png",
+      "url": "assets/images/pepe.png",
       "altText": "aute sunt minim velit elit excepteur Lorem magna in minim laborum nisi consequat et ad"
     }
   }
 ]
+
 
 
 
