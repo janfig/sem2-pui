@@ -1,0 +1,84 @@
+.btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% !important;
+  width: 2.25rem;
+  height: 2.25rem;
+  padding: 1.5rem;
+  text-align: center;
+  border: 2px solid #333;
+}
+
+.a-letter-class{
+  font-size: 1.5rem;
+}
+
+.font-control-btn {
+  background: #ccc;
+  color: #333;
+  border: none;
+}
+/* Your CSS code: */
+.dropdown-menu__container {
+  padding: 20px;
+}
+
+.dropdown-menu__heading {
+  margin-bottom: 10px;
+}
+
+.dropdown-menu__content {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dropdown-menu__button {
+  padding: 10px;
+}
+
+.dropdown-menu__button-size {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu__button-size:last-child {
+  margin-right: 0;
+}
+
+.dropdown-menu__button-size {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-menu__button-size:last-child {
+  margin-right: 0;
+}
+
+.font-control-btn {
+  background: #ccc;
+  color: #333;
+  border: none;
+  border-radius: 10px; /* Round the corners */
+  padding: 5px 10px; /* Slightly smaller size */
+}
+
+.size-button-container {
+  display: flex; /* Align buttons in a row */
+  justify-content: space-around;
+}
+
+.dropdown-menu__button-size {
+  margin-right: 5px; /* Space between buttons */
+}
+
+.dropdown-menu__button-size:last-child {
+  margin-right: 0;
+}
+
+/* Your CSS code: */
+.flex-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
