@@ -26,7 +26,7 @@ import {FormsModule} from "@angular/forms";
 
             >
               <div class="picsum-img-wrapper">
-                <img [src]="movieC.gallery.url" alt="{{movieC.description}}"/>
+                <img [src]="movieC.gallery.url" />
               </div>
             </a>
           </ng-template>
@@ -36,7 +36,7 @@ import {FormsModule} from "@angular/forms";
 
         <ng-container *ngFor="let movie of paginateData">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" [src]="movie.gallery.url" alt="Card image cap">
+            <img class="card-img-top" [src]="movie.gallery.url">
             <div class="card-body">
               <h5 class="card-title">{{movie.name}}</h5>
               <p class="card-text">{{movie.description}}</p>
