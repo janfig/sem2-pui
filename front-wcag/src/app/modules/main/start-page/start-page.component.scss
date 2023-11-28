@@ -1,0 +1,73 @@
+.home-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+img {
+  max-height: 600px !important;
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center; // You can change this to bottom, right or left depending
+  // on the position you want.
+}
+
+
+.carousel-div{
+  padding-top: 1rem;
+  width: 65%;
+}
+
+.card-button{
+  color: var(--light-shades);
+  background: var(--main_basic);
+}
+
+.carousel-caption{
+  color: var(--light-shades);
+  background: rgba(0, 0, 0, .9);
+}
+
+.cards {
+  padding-top: 5rem;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination-controlls{
+  padding-top: 2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.form-select{
+  color: var(--main_basic)
+}
+
+
+ngb-pagination ::ng-deep a {
+  color: var(--light-accent) !important;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link {
+  border-color: var(--main_basic);
+  background-color: var(--main_basic);
+  color: var(--light-shades) !important;
+}
+
+ngb-pagination ::ng-deep .page-item.active .page-link:focus, .page-link:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.1rem dimgrey;
+}
+
+ngb-pagination ::ng-deep .page-link:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.1rem dimgrey;
+}
+
+
+
+
+
+
