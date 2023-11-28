@@ -1,0 +1,39 @@
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.movie-filter {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  //width: 80%;
+}
+.movie {
+  flex-grow: 0;
+  flex-shrink: 0;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  max-width: 1400px;
+
+
+}
+.movie-filter-filers {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main_basic);
+}
