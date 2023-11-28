@@ -1,6 +1,4 @@
-.movie-list-page {
-  background-color: var(--light-shades);
-}
+
 
 .movie-list {
   display: flex;
@@ -10,47 +8,27 @@
   align-items: center;
   width: 100%;
 }
-
+.movie-filter {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  //width: 80%;
+}
 .movie {
   flex-grow: 0;
   flex-shrink: 0;
-  justify-content: flex-start;
   align-items: center;
   width: 100%;
   display: flex;
   max-width: 1400px;
 
-  .movie__info {
-    width: 50%;
-  }
-
-  .movie__poster {
-    width: 20%;
-    max-width: 20%;
-  }
-
-  .movie__rating {
-    width: 10%;
-  }
 
 }
-
-
-.movie-filter {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-}
-
 .movie-filter-filers {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: flex-start;
   width: 80%;
 }
 
