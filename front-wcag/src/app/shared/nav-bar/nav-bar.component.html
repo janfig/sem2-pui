@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg bg-main">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Strona</a>
+    <a class="navbar-brand" routerLink="home">Strona</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -8,16 +8,36 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="#">Strona główna</a>
+          <a class="nav-link" routerLink="home">Strona główna</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Filmy</a>
+          <a class="nav-link" routerLink="movies">Filmy</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Formularz kontaktowy</a>
         </li>
       </ul>
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown" ngbDropdown [autoClose]="false">
+          <button class="btn nav-link dropdown-toggle" id="navbarDropdown" role="button" ngbDropdownToggle>
+            Ustawienia
+          </button>
+          <div class="dropdown-menu dropdown-menu__container" ngbDropdownMenu aria-labelledby="navbarDropdown">
+            <h6 class="dropdown-menu__heading">Zmiana kontrastu</h6>
+            <div class="dropdown-menu__content flex-content">
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setDefaultTheme()" style="background-color: #fff;color: #000;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setSecondTheme()" style="background-color: #000;color: #fff;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setThirdTheme()" style="background-color: #efd90b;color: #000;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setFourthTheme()" style="background-color: #000;color: #efd90b;">A</button>
+            </div>
+            <h6 class="dropdown-menu__heading">Zmiana wielkości tekstu</h6>
+            <div class="dropdown-menu__content size-button-container">
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setFontSizeSmall()">Small</button>
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setFontSizeMedium()">Medium</button>
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setfontSizeLarge()">Large</button>
+            </div>
+          </div>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Profil</a>
         </li>
