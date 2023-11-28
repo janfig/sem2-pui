@@ -23,26 +23,33 @@ $primary-text-color: #333; // Example primary text color
   --light-accent: #A09994;
 }
 html{
-  .dart-theme{
+  &.default-theme{
     --main_basic: #F0720B;
     --dark-shades: #1C1B1F;
     --dark-accent: #956F48;
     --light-shades: #F5F3F0;
     --light-accent: #A09994;
   }
-  .light-theme{
-    --main_basic: #F0720B;
-    --dark-shades: #1C1B1F;
+  &.contrast1-theme{
+    --main_basic: #A09994;
+    --dark-shades: #F5F3F0;
     --dark-accent: #956F48;
-    --light-shades: #F5F3F0;
-    --light-accent: #A09994;
+    --light-shades: #1C1B1F;
+    --light-accent: #F0720B;
   }
-  .contrast{
+  &.contrast2-theme{
     --main_basic: #deb99c;
     --dark-shades: #2d2642;
     --dark-accent: #c48b51;
     --light-shades: #2e54ee;
     --light-accent: #3daf32;
+  }
+  &.contrast3-theme{
+    --main_basic: #3daf32;
+    --dark-shades: #2e54ee;
+    --dark-accent: #c48b51;
+    --light-shades: #2d2642;
+    --light-accent: #deb99c;
   }
 }
 

@@ -25,16 +25,16 @@
           <div class="dropdown-menu dropdown-menu__container" ngbDropdownMenu aria-labelledby="navbarDropdown">
             <h6 class="dropdown-menu__heading">Zmiana kontrastu</h6>
             <div class="dropdown-menu__content flex-content">
-              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" style="background-color: #fff;color: #000;">A</button>
-              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" style="background-color: #000;color: #fff;">A</button>
-              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" style="background-color: #efd90b;color: #000;">A</button>
-              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" style="background-color: #000;color: #efd90b;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setDefaultTheme()" style="background-color: #fff;color: #000;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setSecondTheme()" style="background-color: #000;color: #fff;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setThirdTheme()" style="background-color: #efd90b;color: #000;">A</button>
+              <button class="dropdown-item btn btn-circle dropdown-menu__button a-letter-class" (click)="setFourthTheme()" style="background-color: #000;color: #efd90b;">A</button>
             </div>
             <h6 class="dropdown-menu__heading">Zmiana wielkości tekstu</h6>
             <div class="dropdown-menu__content size-button-container">
-              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size">Small</button>
-              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size">Medium</button>
-              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size">Large</button>
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setFontSizeSmall()">Small</button>
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setFontSizeMedium()">Medium</button>
+              <button class="dropdown-item btn font-control-btn dropdown-menu__button-size" (click)="setfontSizeLarge()">Large</button>
             </div>
           </div>
         </li>

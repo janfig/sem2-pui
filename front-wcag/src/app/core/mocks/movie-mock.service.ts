@@ -688,7 +688,7 @@ const mockMovies: Movie[] = [
     "rating": 4,
     "numberOfRatings": 5912703,
     "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "occaecat adipisicing ut nostrud",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
         "name": "Romeo",
