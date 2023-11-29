@@ -1,0 +1,28 @@
+.card {
+  color: var(--main_basic);
+  margin: auto;
+  padding: 2rem 5rem 3rem 5rem;
+  box-shadow: 0 0.3rem 0.2rem 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  align-items: center;
+}
+
+.login-page{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.btn-primary {
+  background-color: var(--main_basic);
+  color: #fff;
+}
+
+
+.form-group {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
