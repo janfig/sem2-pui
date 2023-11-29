@@ -26,27 +26,27 @@ h3 {
     padding-left:1rem;
 }
 .card-text {
-    color: var(--kolor5);
+    color: var(--dark-shades);
 }
 .card-title {
     color: var(--main_basic);
     font-weight: bold;
 }
 .list-group-item {
-    background: var(--kolor3plus);
+    background: var(--light-shades);
 }
 .card-header {
     background: var(--main_basic);
-    color: var(--kolor2);
+    color: var(--light-accent);
     text-align: start;
     font-weight: bold;
 }
 .card-body {
     text-align: start;
-    background: var(--kolor3plus);
+    background: var(--light-shades);
 }
 .card {
-    background: var(--kolor3plus);
+    background: var(--light-shades);
 }
 .card-footer {
     text-align: end;

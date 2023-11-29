@@ -6,11 +6,10 @@
 
 // Brand Colors
 $main: #10574A; // Change this to your desired color
-$kolor5: #1E2425; // Change this to your desired color
-$kolor4: #213434; // Change this to your desired color
-$kolor3: #94B9C9; // Change this to your desired color
-$kolor3plus: #D7E8F1; // Change this to your desired color
-$kolor2: #DAE4EC; // Change this to your desired color
+$dark-shades: #1E2425; // Change this to your desired color
+$dark-accent: #213434; // Change this to your desired color
+$light-shades: #D7E8F1; // Change this to your desired color
+$light-accent: #DAE4EC; // Change this to your desired color
 
 // Primary
 $primary-bg-color: #DAE4EC; // Example primary background color
@@ -18,36 +17,32 @@ $primary-text-color: #1E2425; // Example primary text color
 
 :root {
   --main_basic: #10574A;
-  --kolor5: #1E2425;
-  --kolor4: #213434;
-  --kolor3: #94B9C9;
-  --kolor3plus: #D7E8F1;
-  --kolor2: #DAE4EC;
+  --dark-shades: #1E2425;
+  --dark-accent: #213434;
+  --light-shades: #D7E8F1;
+  --light-accent: #DAE4EC;
 }
 html{
   .dart-theme{
     --main_basic: #10574A;
-    --kolor5: #1E2425;
-    --kolor4: #213434;
-    --kolor3: #94B9C9;
-    --kolor3plus: #D7E8F1;
-    --kolor2: #DAE4EC;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
   .light-theme{
     --main_basic: #10574A;
-    --kolor5: #1E2425;
-    --kolor4: #213434;
-    --kolor3: #94B9C9;
-    --kolor3plus: #D7E8F1;
-    --kolor2: #DAE4EC;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
   .contrast{
     --main_basic: #10574A;
-    --kolor5: #1E2425;
-    --kolor4: #213434;
-    --kolor3: #94B9C9;
-    --kolor3plus: #D7E8F1;
-    --kolor2: #DAE4EC;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
 }
 
