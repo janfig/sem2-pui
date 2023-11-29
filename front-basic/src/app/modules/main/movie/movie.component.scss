@@ -15,3 +15,32 @@ small {
     width: 25%;
     text-align: right;
 }
+h1 {
+    color: var(--main_basic);
+    font-weight: bold;
+}
+h6 {
+    color: var(--main_basic);
+}
+.card-text {
+    color: var(--light-accent);
+}
+.card-title {
+    color: var(--main_basic);
+    font-weight: bold;
+}
+.list-group-item {
+    background: var(--light-shades);
+}
+.card-header {
+    background: var(--main_basic);
+    color: var(--light-shades);
+    text-align: start;
+    font-weight: bold;
+}
+.card-body {
+    text-align: start;
+}
+.card-footer {
+    text-align: end;
+}

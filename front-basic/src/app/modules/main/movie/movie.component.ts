@@ -14,7 +14,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
       <div class="card" style="width: 68rem;">
         <div class="card-body">
           <h1 class="card-title">{{movie?.name}}</h1>
-          <h6 class="card-subtitle mb-2 text-body-secondary">{{year}} | {{movie?.duration}}h</h6>
+          <h6>{{year}} | {{movie?.duration}}h</h6>
           <p class="card-text">
             <br/>Opis filmu: {{movie?.description}}
           </p>
@@ -29,15 +29,17 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
               </div>
             </div>
             <div class="col-sm">
-              <ng-container *ngFor="let item of createRange(ratingRounded)">★</ng-container>
-              <ng-container *ngFor="let item of createRange(5-ratingRounded!)">☆</ng-container>
-              ({{movie?.numberOfRatings}} ocen)
-              <br/>Scenariusz i reżyseria: {{movie?.director?.name}} {{movie?.director?.surname}}
-              <br/>Kraj produkcji: {{movie?.country}}
-              <br/>W rolach głównych: {{leadRoles}}
-              <br/>Gatunek: {{movie?.genre}}
-              <br/>Premiera: {{movie?.premiere}}
-              <br/>Nagrody: {{movie?.awards}}
+              <p class="card-text">
+                <ng-container *ngFor="let item of createRange(ratingRounded)">★</ng-container>
+                <ng-container *ngFor="let item of createRange(5-ratingRounded!)">☆</ng-container>
+                ({{movie?.numberOfRatings}} ocen)
+                <br/>Scenariusz i reżyseria: {{movie?.director?.name}} {{movie?.director?.surname}}
+                <br/>Kraj produkcji: {{movie?.country}}
+                <br/>W rolach głównych: {{leadRoles}}
+                <br/>Gatunek: {{movie?.genre}}
+                <br/>Premiera: {{movie?.premiere}}
+                <br/>Nagrody: {{movie?.awards}}
+              </p>
             </div>
           </div>
         </div>
@@ -70,7 +72,7 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
               <ng-container *ngFor="let item of createRange(roundRating(comment.stars))">★</ng-container>
               <ng-container *ngFor="let item of createRange(5-roundRating(comment.stars!))">☆</ng-container>
             </h5>
-            <p class="card-text">{{comment?.content}}</p>
+            {{comment?.content}}
           </div>
           <div class="card-footer">
             <small class="text-body-secondary">{{comment?.date}}</small>

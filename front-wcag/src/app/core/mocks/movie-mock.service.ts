@@ -35,7 +35,9 @@ export interface Movie {
   trailer: string,
   description: string,
   actors: Actor[],
-  gallery: Gallery
+  gallery: Gallery,
+  duration: number,
+  comments: Comment[] | null
 }
 
 export interface Actor {
@@ -54,6 +56,14 @@ export interface Gallery {
   altText: string
 }
 
+export interface Comment {
+  username: string,
+  title: string,
+  stars: number,
+  content: string,
+  date: string
+}
+
 const mockMovies: Movie[] = [
   {
     "id": 1,
@@ -68,7 +78,7 @@ const mockMovies: Movie[] = [
     "awards": "Brak",
     "rating": 2.7,
     "numberOfRatings": 1966506,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+    "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=rZm6eVuH13tEmmdX",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "actors": [
       {
@@ -90,7 +100,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 2,
@@ -137,7 +164,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "enim incididunt tempor dolor culpa incididunt duis elit culpa aliquip laboris dolor"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 3,
@@ -164,7 +208,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "fugiat irure"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 4,
@@ -206,7 +267,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 5,
@@ -238,7 +316,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 6,
@@ -270,7 +365,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "magna eiusmod"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 7,
@@ -297,7 +409,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "enim adipisicing magna proident sit duis do duis nostrud ex"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 8,
@@ -334,7 +463,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 9,
@@ -381,7 +527,24 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "proident non anim velit id"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
   {
     "id": 10,
@@ -413,8 +576,26 @@ const mockMovies: Movie[] = [
     "gallery": {
       "url": "assets/images/pepe.png",
       "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
-    }
+    },
+    duration: 2,
+    "comments": [
+      {
+        "username": "sfsfhfsdjsd",
+        "title": "Bardzo dobry film polecam",
+        "stars": 2,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+      {
+        "username": "sssssssss",
+        "title": "Nie wiem nie oglądałem",
+        "stars": 0,
+        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+        "date": "1999-12-23"
+      },
+    ],
   },
+  /*
   {
     "id": 11,
     "name": "Do zmiany",
@@ -3670,7 +3851,9 @@ const mockMovies: Movie[] = [
       "altText": "aute sunt minim velit elit excepteur Lorem magna in minim laborum nisi consequat et ad"
     }
   }
+  */
 ]
+
 
 
 
