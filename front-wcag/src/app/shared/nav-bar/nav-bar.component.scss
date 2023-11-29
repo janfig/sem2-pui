@@ -14,6 +14,17 @@
   font-size: 1.5rem;
 }
 
+.rbs{
+    background-color: var(--main_basic) !important;
+    color: var(--light-shades) !important;
+    .nav-item{
+      color: var(--light-shades) !important;
+      .nav-link{
+        color: var(--light-shades) !important;
+      }
+    }
+}
+
 .dropdown-menu {
   &__container { padding: 20px; }
   &__heading { margin-bottom: 10px; }
@@ -62,4 +73,5 @@
 
 .bg-main {
   background-color: var(--main_basic);
+  color: var(--light-shades) !important;
 }

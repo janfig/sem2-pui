@@ -31,18 +31,25 @@ html{
     --light-accent: #DAE4EC;
   }
   &.contrast1-theme{
-    --main_basic: #10574A;
+    --main_basic: #34eecc;
     --dark-shades: #1E2425;
     --dark-accent: #213434;
     --light-shades: #D7E8F1;
     --light-accent: #DAE4EC;
   }
   &.contrast2-theme{
-    --main_basic: #10574A;
-    --dark-shades: #1E2425;
-    --dark-accent: #213434;
-    --light-shades: #D7E8F1;
-    --light-accent: #DAE4EC;
+    --main_basic: #000000;
+    --dark-shades: #000000;
+    --dark-accent: #000000;
+    --light-shades: #fff200;
+    --light-accent: #fff200;
+  }
+  &.contrast3-theme{
+    --main_basic: #fff200;
+    --dark-shades: #fff200;
+    --dark-accent: #fff200;
+    --light-shades: #000000;
+    --light-accent: #000000;
   }
 }
 

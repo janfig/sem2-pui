@@ -11,7 +11,7 @@ import {NgbRating} from "@ng-bootstrap/ng-bootstrap";
   imports: [CommonModule, FormsModule, NgbRating],
   template: `
       <div class="movie-list-page">
-          <div class="movie-filter pb-2 pt-3 my-4 shadow">
+          <div class="movie-filter pb-2 pt-3 my-4 shadow d-flex">
               <div class="movie-filter-filers d-flex justify-content-evenly pe-4">
                   <div class="card p-3 remove-bootstrap-style">
                       <label for="movie_name" class="form-label remove-bootstrap-style">Szukaj filmu</label>
