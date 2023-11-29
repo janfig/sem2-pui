@@ -5,55 +5,50 @@
 // _variables.scss
 
 // Brand Colors
-$main: #F0720B; // Change this to your desired color
-$dark-shades: #1C1B1F; // Change this to your desired color
-$dark-accent: #956F48; // Change this to your desired color
-$light-shades: #F5F3F0; // Change this to your desired color
-$light-accent: #A09994; // Change this to your desired color
+$main: #10574A; // Change this to your desired color
+$dark-shades: #1E2425; // Change this to your desired color
+$dark-accent: #213434; // Change this to your desired color
+$light-shades: #D7E8F1; // Change this to your desired color
+$light-accent: #DAE4EC; // Change this to your desired color
 
 // Primary
-$primary-bg-color: #f5f5f5; // Example primary background color
-$primary-text-color: #333; // Example primary text color
+$primary-bg-color: #DAE4EC; // Example primary background color
+$primary-text-color: #1E2425; // Example primary text color
 
 :root {
-  --main_basic: #F0720B;
-  --dark-shades: #1C1B1F;
-  --dark-accent: #956F48;
-  --light-shades: #F5F3F0;
-  --light-accent: #A09994;
+  --main_basic: #10574A;
+  --dark-shades: #1E2425;
+  --dark-accent: #213434;
+  --light-shades: #D7E8F1;
+  --light-accent: #DAE4EC;
 }
 html{
   &.default-theme{
-    --main_basic: #F0720B;
-    --dark-shades: #1C1B1F;
-    --dark-accent: #956F48;
-    --light-shades: #F5F3F0;
-    --light-accent: #A09994;
+    --main_basic: #10574A;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
   &.contrast1-theme{
-    --main_basic: #A09994;
-    --dark-shades: #F5F3F0;
-    --dark-accent: #956F48;
-    --light-shades: #1C1B1F;
-    --light-accent: #F0720B;
+    --main_basic: #10574A;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
   &.contrast2-theme{
-    --main_basic: #deb99c;
-    --dark-shades: #2d2642;
-    --dark-accent: #c48b51;
-    --light-shades: #2e54ee;
-    --light-accent: #3daf32;
-  }
-  &.contrast3-theme{
-    --main_basic: #3daf32;
-    --dark-shades: #2e54ee;
-    --dark-accent: #c48b51;
-    --light-shades: #2d2642;
-    --light-accent: #deb99c;
+    --main_basic: #10574A;
+    --dark-shades: #1E2425;
+    --dark-accent: #213434;
+    --light-shades: #D7E8F1;
+    --light-accent: #DAE4EC;
   }
 }
 
-
+.bg-main {
+  background-color: $main;
+}
 
 body{
 margin:0;
