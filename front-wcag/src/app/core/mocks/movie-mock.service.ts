@@ -37,7 +37,7 @@ export interface Movie {
   actors: Actor[],
   gallery: Gallery,
   duration: number,
-  comments: Comment[] | null
+  comments?: Comment[]
 }
 
 export interface Actor {

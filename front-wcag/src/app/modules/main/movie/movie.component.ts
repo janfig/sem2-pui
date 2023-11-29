@@ -92,6 +92,8 @@ export class MovieComponent{
   year: String | undefined;
   url: SafeResourceUrl;
   ratingRounded: number | undefined;
+  firstActor: String | undefined;
+  secondActor: String | undefined;
   leadRoles: String | undefined;
 
   constructor(private route: ActivatedRoute, private sanitizer:DomSanitizer) {
@@ -102,7 +104,15 @@ export class MovieComponent{
     this.year = this.movie.premiere.toString().substring(0,4)
     this.url = this.sanitizer.bypassSecurityTrustResourceUrl(this.movie.trailer);
     this.ratingRounded = this.roundRating(this.movie.rating)
-    this.leadRoles = this.movie.actors[0].name + " " + this.movie.actors[0].surname + ", " + this.movie.actors[1].name + " " + this.movie.actors[1].surname
+    let i=0;
+    this.leadRoles = "";
+    for(var actor of this.movie.actors){
+      if(i<2){
+        this.leadRoles = this.leadRoles + actor.name + " "  + actor.surname + ", "
+      }
+      i += 1
+    }
+    this.leadRoles = this.leadRoles.slice(0, -2);
   }
 
   createRange(number: any){
