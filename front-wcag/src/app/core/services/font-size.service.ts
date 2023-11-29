@@ -24,7 +24,7 @@ export class FontSizeService {
     this.setFontSize(FontSizeType.Medium);
   }
 
-  setfontSizeLarge(): void {
+  setFontSizeLarge(): void {
     this.setFontSize(FontSizeType.Large);
   }
 }

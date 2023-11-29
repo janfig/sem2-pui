@@ -141,7 +141,7 @@ const mockMovies: Movie[] = [
   },
   {
     "id": 3,
-    "name": "Do zmiany",
+    "name": "Zmieniony",
     "director": {
       "name": "Berta",
       "surname": "Kaniewski"

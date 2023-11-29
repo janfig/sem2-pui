@@ -49,7 +49,7 @@ import {Router} from "@angular/router";
         </div>
         <div class="movie-list">
             <ng-container *ngFor="let movie of movieList" class="movie-title-list">
-                <div class="movie row mb-3 p-3 rounded  shadow justify-content-between"
+                <div class="movie row mb-3 p-3 rounded shadow justify-content-between"
                      (click)="goToDetails(movie.id!)">
                     <div class="movie__rating col-1">
                         <h5 class="title">

@@ -30,7 +30,7 @@ export class NavBarComponent {
   }
 
   setfontSizeLarge(): void {
-    this.fontSizeService.setfontSizeLarge();
+    this.fontSizeService.setFontSizeLarge();
   }
 
   setDefaultTheme(): void {
