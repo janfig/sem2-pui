@@ -65,536 +65,536 @@ export interface Comment {
 }
 
 const mockMovies: Movie[] = [
-  {
-    "id": 1,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Cyryl",
-      "surname": "Florek"
+    {
+      "id": 1,
+      "name": "Scary movie",
+      "director": {
+        "name": "Cyryl",
+        "surname": "Florek"
+      },
+      "country": "Mongolia",
+      "genre": "Horror",
+      "premiere": "1999-12-23",
+      "awards": "Brak",
+      "rating": 2.7,
+      "numberOfRatings": 1966506,
+      "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=rZm6eVuH13tEmmdX",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Lilla",
+          "surname": "Kędziora",
+          "role": "Naomi Pouros"
+        },
+        {
+          "name": "Nazary",
+          "surname": "Głogowski",
+          "role": "Marion Klocko"
+        },
+        {
+          "name": "Zoe",
+          "surname": "Piórkowski",
+          "role": "Cecelia Hagenes"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/horror-movie-2-poster.jpeg",
+        "altText": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate"
+      },
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    "country": "Mongolia",
-    "genre": "Horror",
-    "premiere": "1999-12-23",
-    "awards": "Brak",
-    "rating": 2.7,
-    "numberOfRatings": 1966506,
-    "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=rZm6eVuH13tEmmdX",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Lilla",
-        "surname": "Kędziora",
-        "role": "Naomi Pouros"
+    {
+      "id": 2,
+      "name": "Straszny film",
+      "director": {
+        "name": "Korneli",
+        "surname": "Andrzejczak"
       },
-      {
-        "name": "Nazary",
-        "surname": "Głogowski",
-        "role": "Marion Klocko"
+      "country": "Thailand",
+      "genre": "Horror",
+      "premiere": "2010-02-17",
+      "awards": "Saturn",
+      "rating": 4.86,
+      "numberOfRatings": 9664378,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Roger",
+          "surname": "Tracz",
+          "role": "Sheldon Schimmel"
+        },
+        {
+          "name": "Waleria",
+          "surname": "Jędrzejewski",
+          "role": "Christina Ernser"
+        },
+        {
+          "name": "Renata",
+          "surname": "Tomczak",
+          "role": "Ian Medhurst"
+        },
+        {
+          "name": "Jerzy",
+          "surname": "Szulc",
+          "role": "Iris Maggio"
+        },
+        {
+          "name": "Helena",
+          "surname": "Maliszewski",
+          "role": "Ruben Rutherford"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/horror-movie-1-poster.jpeg",
+        "altText": "enim incididunt tempor dolor culpa incididunt duis elit culpa aliquip laboris dolor"
       },
-      {
-        "name": "Zoe",
-        "surname": "Piórkowski",
-        "role": "Cecelia Hagenes"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+    {
+      "id": 3,
+      "name": "Zmieniony",
+      "director": {
+        "name": "Berta",
+        "surname": "Kaniewski"
       },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+      "country": "Cote d'Ivoire",
+      "genre": "Akcja",
+      "premiere": "2022-09-20",
+      "awards": "Brak",
+      "rating": 2.88,
+      "numberOfRatings": 6374756,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Hanna",
+          "surname": "Raczyński",
+          "role": "Darrin Wolf"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/action-movie-1-poster.jpeg",
+        "altText": "fugiat irure"
       },
-    ],
-  },
-  {
-    "id": 2,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Korneli",
-      "surname": "Andrzejczak"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    "country": "Thailand",
-    "genre": "Akcja",
-    "premiere": "2010-02-17",
-    "awards": "Saturn",
-    "rating": 4.86,
-    "numberOfRatings": 9664378,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Roger",
-        "surname": "Tracz",
-        "role": "Sheldon Schimmel"
+    {
+      "id": 4,
+      "name": "Furiat",
+      "director": {
+        "name": "Katarzyna",
+        "surname": "Grzesiak"
       },
-      {
-        "name": "Waleria",
-        "surname": "Jędrzejewski",
-        "role": "Christina Ernser"
+      "country": "Nigeria",
+      "genre": "Akcja",
+      "premiere": "2001-03-12",
+      "awards": "Saturn",
+      "rating": 4.42,
+      "numberOfRatings": 3056973,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Józefina",
+          "surname": "Juszczak",
+          "role": "Laurie VonRueden"
+        },
+        {
+          "name": "Joanna",
+          "surname": "Jankowiak",
+          "role": "Alexander Cruickshank"
+        },
+        {
+          "name": "Stella",
+          "surname": "Gawlik",
+          "role": "Megan Gutkowski"
+        },
+        {
+          "name": "Sergiusz",
+          "surname": "Kłos",
+          "role": "Brittany Stroman"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/action-movie-2-poster.jpeg",
+        "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
       },
-      {
-        "name": "Renata",
-        "surname": "Tomczak",
-        "role": "Ian Medhurst"
-      },
-      {
-        "name": "Jerzy",
-        "surname": "Szulc",
-        "role": "Iris Maggio"
-      },
-      {
-        "name": "Helena",
-        "surname": "Maliszewski",
-        "role": "Ruben Rutherford"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "enim incididunt tempor dolor culpa incididunt duis elit culpa aliquip laboris dolor"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+    {
+      "id": 5,
+      "name": "Nad-ciśnienie",
+      "director": {
+        "name": "Monika",
+        "surname": "Miller"
       },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+      "country": "Virgin Islands, British",
+      "genre": "Akcja",
+      "premiere": "2013-08-06",
+      "awards": "Brak",
+      "rating": 2.34,
+      "numberOfRatings": 459187,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Arkady",
+          "surname": "Duda",
+          "role": "Clarence Crooks"
+        },
+        {
+          "name": "Diana",
+          "surname": "Leśniak",
+          "role": "Horace Bogan"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/war-movie-poster.jpg",
+        "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
       },
-    ],
-  },
-  {
-    "id": 3,
-    "name": "Zmieniony",
-    "director": {
-      "name": "Berta",
-      "surname": "Kaniewski"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    "country": "Cote d'Ivoire",
-    "genre": "Horror",
-    "premiere": "2022-09-20",
-    "awards": "Brak",
-    "rating": 2.88,
-    "numberOfRatings": 6374756,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Hanna",
-        "surname": "Raczyński",
-        "role": "Darrin Wolf"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "fugiat irure"
+    {
+      "id": 6,
+      "name": "Obi sam se robi",
+      "director": {
+        "name": "Spirydion",
+        "surname": "Słowik"
+      },
+      "country": "Ethiopia",
+      "genre": "Animacja",
+      "premiere": "2023-06-07",
+      "awards": "Oscar",
+      "rating": 3.92,
+      "numberOfRatings": 712485,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Lilia",
+          "surname": "Bartczak",
+          "role": "Jay Nitzsche"
+        },
+        {
+          "name": "Barbara",
+          "surname": "Więcek",
+          "role": "Amber Runolfsson"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/animation-movie-poster.jpeg",
+        "altText": "magna eiusmod"
+      },
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+    {
+      "id": 7,
+      "name": "Niedziela wieczur",
+      "director": {
+        "name": "Ksawera",
+        "surname": "Noga"
       },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+      "country": "Sweden",
+      "genre": "Dokument",
+      "premiere": "2008-11-26",
+      "awards": "Brak",
+      "rating": 4.1,
+      "numberOfRatings": 2663244,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Helena",
+          "surname": "Rogala",
+          "role": "Ruth Lueilwitz"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/document-movie-poster.jpeg",
+        "altText": "enim adipisicing magna proident sit duis do duis nostrud ex"
       },
-    ],
-  },
-  {
-    "id": 4,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Katarzyna",
-      "surname": "Grzesiak"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    "country": "Nigeria",
-    "genre": "Animacja",
-    "premiere": "2001-03-12",
-    "awards": "Saturn",
-    "rating": 4.42,
-    "numberOfRatings": 3056973,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Józefina",
-        "surname": "Juszczak",
-        "role": "Laurie VonRueden"
+    {
+      "id": 8,
+      "name": "Orzeł 7",
+      "director": {
+        "name": "Seweryn",
+        "surname": "Krysiak"
       },
-      {
-        "name": "Joanna",
-        "surname": "Jankowiak",
-        "role": "Alexander Cruickshank"
+      "country": "Suriname",
+      "genre": "Fantasy",
+      "premiere": "2004-07-11",
+      "awards": "Brak",
+      "rating": 1.04,
+      "numberOfRatings": 707330,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Daniel",
+          "surname": "Jagielski",
+          "role": "Roger Mills"
+        },
+        {
+          "name": "Konstantyn",
+          "surname": "Skoczylas",
+          "role": "Clarence Kassulke"
+        },
+        {
+          "name": "Helena",
+          "surname": "Krajewski",
+          "role": "Rodolfo Hand"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/scify-movie-1-poster.jpeg",
+        "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
       },
-      {
-        "name": "Stella",
-        "surname": "Gawlik",
-        "role": "Megan Gutkowski"
-      },
-      {
-        "name": "Sergiusz",
-        "surname": "Kłos",
-        "role": "Brittany Stroman"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+    {
+      "id": 9,
+      "name": "Cofnąć się do przodu",
+      "director": {
+        "name": "Berta",
+        "surname": "Jastrzębski"
       },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
+      "country": "United Kingdom",
+      "genre": "Fantasy",
+      "premiere": "2006-09-10",
+      "awards": "Brak",
+      "rating": 1.55,
+      "numberOfRatings": 898232,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Kira",
+          "surname": "Kiełbasa",
+          "role": "Todd Schinner"
+        },
+        {
+          "name": "Magdalena",
+          "surname": "Borowiec",
+          "role": "Johanna Kulas"
+        },
+        {
+          "name": "Beatrycze",
+          "surname": "Witek",
+          "role": "Sharon Feeney"
+        },
+        {
+          "name": "Wilhelm",
+          "surname": "Sawicki",
+          "role": "Kristopher Daniel"
+        },
+        {
+          "name": "Oliwia",
+          "surname": "Bogusz",
+          "role": "Paula Waelchi"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/scify-movie-2-poster.jpeg",
+        "altText": "proident non anim velit id"
       },
-    ],
-  },
-  {
-    "id": 5,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Monika",
-      "surname": "Miller"
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    "country": "Virgin Islands, British",
-    "genre": "Akcja",
-    "premiere": "2013-08-06",
-    "awards": "Brak",
-    "rating": 2.34,
-    "numberOfRatings": 459187,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Arkady",
-        "surname": "Duda",
-        "role": "Clarence Crooks"
+    {
+      "id": 10,
+      "name": "460 gniewnych ludzi",
+      "director": {
+        "name": "Gerald",
+        "surname": "Rogalski"
       },
-      {
-        "name": "Diana",
-        "surname": "Leśniak",
-        "role": "Horace Bogan"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
+      "country": "Kyrgyz Republic",
+      "genre": "Dokument",
+      "premiere": "2009-05-17",
+      "awards": "Brak",
+      "rating": 4.3,
+      "numberOfRatings": 7303122,
+      "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "actors": [
+        {
+          "name": "Makary",
+          "surname": "Jakubiak",
+          "role": "Mandy Koepp"
+        },
+        {
+          "name": "Marta",
+          "surname": "Duda",
+          "role": "Travis Ebert"
+        }
+      ],
+      "gallery": {
+        "url": "assets/images/classic-movie-poster.jpeg",
+        "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
+      },
+      duration: 2,
+      "comments": [
+        {
+          "username": "sfsfhfsdjsd",
+          "title": "Bardzo dobry film polecam",
+          "stars": 2,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+        {
+          "username": "sssssssss",
+          "title": "Nie wiem nie oglądałem",
+          "stars": 0,
+          "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
+          "date": "1999-12-23"
+        },
+      ],
     },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
-  {
-    "id": 6,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Spirydion",
-      "surname": "Słowik"
-    },
-    "country": "Ethiopia",
-    "genre": "Akcja",
-    "premiere": "2023-06-07",
-    "awards": "Oscar",
-    "rating": 3.92,
-    "numberOfRatings": 712485,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Lilia",
-        "surname": "Bartczak",
-        "role": "Jay Nitzsche"
-      },
-      {
-        "name": "Barbara",
-        "surname": "Więcek",
-        "role": "Amber Runolfsson"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "magna eiusmod"
-    },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
-  {
-    "id": 7,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Ksawera",
-      "surname": "Noga"
-    },
-    "country": "Sweden",
-    "genre": "Horror",
-    "premiere": "2008-11-26",
-    "awards": "Brak",
-    "rating": 4.1,
-    "numberOfRatings": 2663244,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Helena",
-        "surname": "Rogala",
-        "role": "Ruth Lueilwitz"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "enim adipisicing magna proident sit duis do duis nostrud ex"
-    },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
-  {
-    "id": 8,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Seweryn",
-      "surname": "Krysiak"
-    },
-    "country": "Suriname",
-    "genre": "Dokument",
-    "premiere": "2004-07-11",
-    "awards": "Brak",
-    "rating": 1.04,
-    "numberOfRatings": 707330,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Daniel",
-        "surname": "Jagielski",
-        "role": "Roger Mills"
-      },
-      {
-        "name": "Konstantyn",
-        "surname": "Skoczylas",
-        "role": "Clarence Kassulke"
-      },
-      {
-        "name": "Helena",
-        "surname": "Krajewski",
-        "role": "Rodolfo Hand"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
-    },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
-  {
-    "id": 9,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Berta",
-      "surname": "Jastrzębski"
-    },
-    "country": "United Kingdom",
-    "genre": "Animacja",
-    "premiere": "2006-09-10",
-    "awards": "Brak",
-    "rating": 1.55,
-    "numberOfRatings": 898232,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Kira",
-        "surname": "Kiełbasa",
-        "role": "Todd Schinner"
-      },
-      {
-        "name": "Magdalena",
-        "surname": "Borowiec",
-        "role": "Johanna Kulas"
-      },
-      {
-        "name": "Beatrycze",
-        "surname": "Witek",
-        "role": "Sharon Feeney"
-      },
-      {
-        "name": "Wilhelm",
-        "surname": "Sawicki",
-        "role": "Kristopher Daniel"
-      },
-      {
-        "name": "Oliwia",
-        "surname": "Bogusz",
-        "role": "Paula Waelchi"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "proident non anim velit id"
-    },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
-  {
-    "id": 10,
-    "name": "Do zmiany",
-    "director": {
-      "name": "Gerald",
-      "surname": "Rogalski"
-    },
-    "country": "Kyrgyz Republic",
-    "genre": "Dokument",
-    "premiere": "2009-05-17",
-    "awards": "Brak",
-    "rating": 4.3,
-    "numberOfRatings": 7303122,
-    "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "actors": [
-      {
-        "name": "Makary",
-        "surname": "Jakubiak",
-        "role": "Mandy Koepp"
-      },
-      {
-        "name": "Marta",
-        "surname": "Duda",
-        "role": "Travis Ebert"
-      }
-    ],
-    "gallery": {
-      "url": "assets/images/pepe.png",
-      "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
-    },
-    duration: 2,
-    "comments": [
-      {
-        "username": "sfsfhfsdjsd",
-        "title": "Bardzo dobry film polecam",
-        "stars": 2,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-      {
-        "username": "sssssssss",
-        "title": "Nie wiem nie oglądałem",
-        "stars": 0,
-        "content": "eiusmod voluptate minim cupidatat consequat aliquip nulla magna voluptate",
-        "date": "1999-12-23"
-      },
-    ],
-  },
   /*
   {
     "id": 11,
@@ -624,7 +624,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/science-fiction-movie-poster.jpg",
       "altText": "sit minim amet sunt officia qui adipisicing quis quis aute Lorem velit esse eu ea magna"
     }
   },
@@ -656,7 +656,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ex magna officia voluptate consectetur do et magna consequat anim incididunt"
     }
   },
@@ -688,7 +688,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "dolore duis incididunt"
     }
   },
@@ -735,7 +735,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "excepteur ullamco dolore ullamco enim minim aliqua velit eu irure cillum reprehenderit tempor est eu ipsum cillum laboris"
     }
   },
@@ -777,7 +777,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "eiusmod aliquip commodo consectetur pariatur sit in ut"
     }
   },
@@ -824,7 +824,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "deserunt quis et qui nisi nisi mollit excepteur pariatur eiusmod non dolor fugiat occaecat tempor ad ad cillum"
     }
   },
@@ -851,7 +851,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "consequat laboris adipisicing incididunt nulla cupidatat mollit culpa id excepteur ea reprehenderit sunt pariatur consequat aliqua"
     }
   },
@@ -898,7 +898,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "labore ea mollit laborum ullamco enim aute exercitation eiusmod culpa ex laboris ipsum aute"
     }
   },
@@ -930,7 +930,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "quis proident enim in dolore officia aute cupidatat"
     }
   },
@@ -972,7 +972,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "dolore nisi veniam sint eu aliquip ipsum"
     }
   },
@@ -1004,7 +1004,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ut labore proident cillum consectetur ipsum reprehenderit et aliquip"
     }
   },
@@ -1041,7 +1041,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "cillum pariatur reprehenderit amet incididunt eiusmod cupidatat minim ut veniam"
     }
   },
@@ -1068,7 +1068,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "dolore minim laboris"
     }
   },
@@ -1105,7 +1105,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "veniam sint ipsum duis"
     }
   },
@@ -1132,7 +1132,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ea nostrud ullamco irure do non labore dolore deserunt laboris nulla dolor esse eiusmod officia ea anim minim ad"
     }
   },
@@ -1179,7 +1179,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "in commodo labore irure tempor cillum dolor adipisicing tempor consequat id fugiat"
     }
   },
@@ -1206,7 +1206,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "dolor commodo aliquip voluptate Lorem sint id minim consectetur dolor enim"
     }
   },
@@ -1243,7 +1243,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "do et fugiat labore mollit magna minim deserunt aute"
     }
   },
@@ -1290,7 +1290,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "magna incididunt pariatur sit eu et fugiat duis ipsum cupidatat non laborum duis irure fugiat irure quis excepteur Lorem"
     }
   },
@@ -1327,7 +1327,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aute tempor ad ad ipsum sint aliquip officia anim minim sint proident"
     }
   },
@@ -1354,7 +1354,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "exercitation amet est nulla consectetur duis irure cupidatat sint in eu aliqua voluptate enim sit minim ut dolor"
     }
   },
@@ -1381,7 +1381,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "mollit culpa ut aute labore eu esse adipisicing qui voluptate nostrud Lorem enim laborum ipsum Lorem est qui sint"
     }
   },
@@ -1423,7 +1423,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "dolore velit enim in ut non occaecat sit minim nostrud"
     }
   },
@@ -1470,7 +1470,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aute reprehenderit dolor anim deserunt ex commodo culpa velit enim consectetur officia"
     }
   },
@@ -1502,7 +1502,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aliquip et et reprehenderit Lorem in labore nisi consequat eiusmod sit deserunt ex"
     }
   },
@@ -1534,7 +1534,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "deserunt amet duis esse fugiat dolor deserunt tempor dolore id voluptate occaecat elit id mollit"
     }
   },
@@ -1566,7 +1566,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "nulla et ipsum amet ad minim sit incididunt culpa laboris Lorem occaecat non culpa"
     }
   },
@@ -1593,7 +1593,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "reprehenderit elit"
     }
   },
@@ -1630,7 +1630,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "laboris amet occaecat nulla in elit magna et proident irure ut officia aliqua consequat ad et dolore consequat"
     }
   },
@@ -1662,7 +1662,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ex dolore tempor enim reprehenderit veniam id officia cupidatat adipisicing cillum enim labore ex enim officia eu culpa exercitation"
     }
   },
@@ -1689,7 +1689,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ipsum"
     }
   },
@@ -1736,7 +1736,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "amet magna irure excepteur aliqua est cupidatat ex esse dolor ea consequat ut voluptate dolore"
     }
   },
@@ -1773,7 +1773,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -1800,7 +1800,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "qui qui adipisicing veniam minim ex do aliquip in deserunt occaecat est cillum adipisicing elit occaecat labore magna magna"
     }
   },
@@ -1837,7 +1837,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ut incididunt laboris excepteur cupidatat velit ex amet aute adipisicing"
     }
   },
@@ -1884,7 +1884,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "esse cillum do"
     }
   },
@@ -1926,7 +1926,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "sunt non magna consequat deserunt do mollit reprehenderit aliqua"
     }
   },
@@ -1968,7 +1968,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "exercitation deserunt Lorem occaecat veniam sunt culpa consequat nulla eu velit"
     }
   },
@@ -2005,7 +2005,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "amet sit ipsum commodo in laborum aliquip ad nulla nisi pariatur nostrud Lorem ut laboris aliquip quis mollit exercitation"
     }
   },
@@ -2052,7 +2052,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -2099,7 +2099,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "sunt exercitation cupidatat elit excepteur est do sint pariatur Lorem dolore eu in in"
     }
   },
@@ -2146,7 +2146,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "reprehenderit culpa esse magna nisi laborum nostrud nisi anim ullamco est occaecat cupidatat adipisicing in veniam commodo commodo"
     }
   },
@@ -2173,7 +2173,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ut aute fugiat velit et eiusmod exercitation consectetur"
     }
   },
@@ -2215,7 +2215,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "sit cillum eiusmod reprehenderit nostrud voluptate est"
     }
   },
@@ -2262,7 +2262,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ex"
     }
   },
@@ -2299,7 +2299,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "do sit mollit aliquip fugiat sint deserunt incididunt et deserunt voluptate"
     }
   },
@@ -2326,7 +2326,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "anim"
     }
   },
@@ -2368,7 +2368,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "nisi labore sit excepteur enim fugiat eiusmod ex amet officia id"
     }
   },
@@ -2405,7 +2405,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "consectetur duis culpa culpa fugiat tempor aliqua quis laborum qui ex laboris pariatur nulla Lorem sunt et"
     }
   },
@@ -2437,7 +2437,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "nostrud exercitation enim anim reprehenderit culpa incididunt id deserunt enim"
     }
   },
@@ -2469,7 +2469,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "excepteur nostrud duis ipsum nulla"
     }
   },
@@ -2496,7 +2496,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "commodo aliquip ipsum pariatur eu do"
     }
   },
@@ -2523,7 +2523,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "quis et exercitation exercitation qui mollit duis Lorem aliqua pariatur laborum irure officia amet minim do"
     }
   },
@@ -2555,7 +2555,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "excepteur qui irure adipisicing proident sit est"
     }
   },
@@ -2587,7 +2587,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "excepteur culpa consequat ipsum ad eiusmod sint"
     }
   },
@@ -2624,7 +2624,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "culpa irure anim nulla voluptate dolor incididunt velit nulla eu magna nisi Lorem veniam dolor in sunt"
     }
   },
@@ -2651,7 +2651,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "nulla enim adipisicing id duis ad ex id excepteur"
     }
   },
@@ -2698,7 +2698,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "consectetur magna commodo nulla id"
     }
   },
@@ -2730,7 +2730,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "non qui"
     }
   },
@@ -2757,7 +2757,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "est nisi minim consequat"
     }
   },
@@ -2794,7 +2794,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aliquip sunt et exercitation exercitation"
     }
   },
@@ -2831,7 +2831,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "irure adipisicing do esse labore esse quis dolor"
     }
   },
@@ -2858,7 +2858,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -2905,7 +2905,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "ipsum"
     }
   },
@@ -2942,7 +2942,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -2974,7 +2974,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aliqua fugiat Lorem pariatur nostrud nulla consequat non aliqua elit qui in sint excepteur do"
     }
   },
@@ -3021,7 +3021,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "non et qui commodo cillum consectetur"
     }
   },
@@ -3068,7 +3068,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "occaecat magna nisi laboris et esse"
     }
   },
@@ -3110,7 +3110,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "cillum ea ea velit irure magna aliqua elit do ut tempor anim aute minim irure laborum labore ut dolore"
     }
   },
@@ -3142,7 +3142,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "sint labore proident tempor"
     }
   },
@@ -3189,7 +3189,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "occaecat sit occaecat exercitation mollit velit dolor consectetur nisi cillum est nostrud labore excepteur deserunt"
     }
   },
@@ -3216,7 +3216,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "sunt tempor in nisi reprehenderit sunt adipisicing occaecat nostrud cillum voluptate deserunt eu officia non nostrud do duis ad ipsum"
     }
   },
@@ -3243,7 +3243,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -3275,7 +3275,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "mollit eiusmod aliqua"
     }
   },
@@ -3312,7 +3312,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "quis"
     }
   },
@@ -3354,7 +3354,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "irure veniam elit velit amet et"
     }
   },
@@ -3386,7 +3386,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "nisi aliquip sit cupidatat sint sint"
     }
   },
@@ -3433,7 +3433,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "irure ut adipisicing laboris ex culpa nulla anim nisi irure elit"
     }
   },
@@ -3460,7 +3460,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "culpa velit dolore nostrud veniam"
     }
   },
@@ -3492,7 +3492,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "do amet duis culpa labore veniam officia laborum"
     }
   },
@@ -3519,7 +3519,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aliqua consectetur ipsum est sunt"
     }
   },
@@ -3551,7 +3551,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "voluptate ex occaecat non tempor nisi ea ipsum sit eiusmod veniam consectetur consequat irure voluptate pariatur sint in"
     }
   },
@@ -3593,7 +3593,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "in Lorem ex consectetur amet"
     }
   },
@@ -3635,7 +3635,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "eiusmod sunt deserunt minim nisi irure in eiusmod minim ea sunt labore nostrud ut officia laboris ea ex ad laboris"
     }
   },
@@ -3667,7 +3667,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "minim voluptate esse amet"
     }
   },
@@ -3714,7 +3714,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "labore cillum veniam est culpa"
     }
   },
@@ -3761,7 +3761,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "exercitation occaecat occaecat adipisicing laboris minim proident ea deserunt est aliquip amet elit"
     }
   },
@@ -3788,7 +3788,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aliqua dolor amet ex ullamco aute excepteur exercitation mollit id et minim dolore Lorem fugiat culpa laborum exercitation commodo pariatur"
     }
   },
@@ -3815,7 +3815,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": ""
     }
   },
@@ -3847,7 +3847,7 @@ const mockMovies: Movie[] = [
       }
     ],
     "gallery": {
-      "url": "assets/images/pepe.png",
+      "url": "assets/images/drama-movie-poster.jpeg",
       "altText": "aute sunt minim velit elit excepteur Lorem magna in minim laborum nisi consequat et ad"
     }
   }
