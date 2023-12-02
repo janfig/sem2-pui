@@ -51,3 +51,13 @@ h3 {
 .card-footer {
     text-align: end;
 }
+.btn {
+    background: var(--main_basic);
+    color: var(--light-accent);
+    text-align: end;
+}
+.align-right {
+    text-align: right;
+    border: 0;
+    padding: 0;
+  }

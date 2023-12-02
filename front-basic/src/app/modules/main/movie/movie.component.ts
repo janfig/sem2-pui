@@ -61,7 +61,18 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
         <img src={{movie?.gallery?.url}} alt={{movie?.gallery?.altText}}>
       </div>
       <br/>
-      <h3 class="card-title">Komentarze</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <h3 class="card-title">Komentarze</h3>
+          </div>
+          <div class="col-sm">
+            <div class="align-right">
+              <button type="button" class="btn">Dodaj komentarz</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <br/>
       <li class="list-group-item" *ngFor="let comment of movie?.comments">
         <div class="card text-bg-light mb-3" style="width: 68rem;">
