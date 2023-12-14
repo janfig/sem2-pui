@@ -1,0 +1,10 @@
+Study Name	WP_KB_GajekPiotr-gr.2.1
+Number of Respondents	5
+
+Matrix contains the following questions:	
+
+Survey Slide Name 	 Question-Id 	 Question Type 	 Property 	 Nr of Respondents 	 Column Nr 	 Respondent Matrix Column Name 	 Label-info 	
+
+Response Matrix
+1	2	3	4	5	
+STUDY	RESPONDENT	GENDER	AGE	GROUP	
