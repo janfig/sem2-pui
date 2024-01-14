@@ -49,7 +49,7 @@ img {
 
 
 ngb-pagination ::ng-deep a {
-  color: var(--light-accent) !important;
+  color: black !important;
 }
 
 ngb-pagination ::ng-deep .page-item.active .page-link {
@@ -59,11 +59,11 @@ ngb-pagination ::ng-deep .page-item.active .page-link {
 }
 
 ngb-pagination ::ng-deep .page-item.active .page-link:focus, .page-link:not(:disabled):not(.disabled):active:focus {
-  box-shadow: 0 0 0 0.1rem dimgrey;
+  box-shadow: 0 0 0 0.1rem black;
 }
 
 ngb-pagination ::ng-deep .page-link:not(:disabled):not(.disabled):active:focus {
-  box-shadow: 0 0 0 0.1rem dimgrey;
+  box-shadow: 0 0 0 0.1rem black;
 }
 
 

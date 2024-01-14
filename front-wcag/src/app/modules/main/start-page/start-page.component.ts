@@ -11,6 +11,7 @@ import {FormsModule} from "@angular/forms";
   imports: [CommonModule, NgbSlide, NgbCarousel, RouterLink, NgbPagination, FormsModule],
   template: `
     <div class="home-page">
+      <h1>Home page</h1>
       <div class="carousel-div">
         <ngb-carousel
           #carousel

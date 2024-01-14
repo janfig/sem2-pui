@@ -10,6 +10,7 @@ import {NgbRating} from "@ng-bootstrap/ng-bootstrap";
   standalone: true,
   imports: [CommonModule, FormsModule, NgbRating],
   template: `
+    <h1>Lista filmow</h1>
       <div class="movie-list-page">
           <div class="movie-filter pb-2 pt-3 my-4 shadow d-flex">
               <div class="movie-filter-filers d-flex justify-content-evenly pe-4">

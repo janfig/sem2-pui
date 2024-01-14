@@ -79,8 +79,8 @@ const mockMovies: Movie[] = [
       "rating": 2.7,
       "numberOfRatings": 1966506,
       "trailer": "https://www.youtube.com/embed/dQw4w9WgXcQ?si=rZm6eVuH13tEmmdX",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "actors": [
+      "description": "Alt texttttttttttt 1",
+        "actors": [
         {
           "name": "Lilla",
           "surname": "Kędziora",
@@ -133,7 +133,7 @@ const mockMovies: Movie[] = [
       "rating": 4.86,
       "numberOfRatings": 9664378,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 2",
       "actors": [
         {
           "name": "Roger",
@@ -197,7 +197,7 @@ const mockMovies: Movie[] = [
       "rating": 2.88,
       "numberOfRatings": 6374756,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 3",
       "actors": [
         {
           "name": "Hanna",
@@ -241,7 +241,7 @@ const mockMovies: Movie[] = [
       "rating": 4.42,
       "numberOfRatings": 3056973,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 4",
       "actors": [
         {
           "name": "Józefina",
@@ -266,7 +266,7 @@ const mockMovies: Movie[] = [
       ],
       "gallery": {
         "url": "assets/images/action-movie-2-poster.jpeg",
-        "altText": "sint adipisicing elit non excepteur officia deserunt aute mollit est elit consequat et elit"
+        "altText": "okokokokokt"
       },
       duration: 2,
       "comments": [
@@ -300,7 +300,7 @@ const mockMovies: Movie[] = [
       "rating": 2.34,
       "numberOfRatings": 459187,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 5",
       "actors": [
         {
           "name": "Arkady",
@@ -315,7 +315,7 @@ const mockMovies: Movie[] = [
       ],
       "gallery": {
         "url": "assets/images/war-movie-poster.jpg",
-        "altText": "veniam ipsum do mollit ut cillum eu anim ipsum ipsum irure Lorem velit velit officia sint incididunt commodo minim nisi"
+        "altText": "asdasdasdadasd"
       },
       duration: 2,
       "comments": [
@@ -349,7 +349,7 @@ const mockMovies: Movie[] = [
       "rating": 3.92,
       "numberOfRatings": 712485,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 6",
       "actors": [
         {
           "name": "Lilia",
@@ -398,7 +398,7 @@ const mockMovies: Movie[] = [
       "rating": 4.1,
       "numberOfRatings": 2663244,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 7",
       "actors": [
         {
           "name": "Helena",
@@ -442,7 +442,7 @@ const mockMovies: Movie[] = [
       "rating": 1.04,
       "numberOfRatings": 707330,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 8",
       "actors": [
         {
           "name": "Daniel",
@@ -462,7 +462,7 @@ const mockMovies: Movie[] = [
       ],
       "gallery": {
         "url": "assets/images/scify-movie-1-poster.jpeg",
-        "altText": "sint aliqua ut dolore enim magna fugiat culpa aliqua voluptate adipisicing adipisicing duis est fugiat aliquip dolor exercitation incididunt sit"
+        "altText": "wewewewe"
       },
       duration: 2,
       "comments": [
@@ -496,7 +496,7 @@ const mockMovies: Movie[] = [
       "rating": 1.55,
       "numberOfRatings": 898232,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 9",
       "actors": [
         {
           "name": "Kira",
@@ -560,7 +560,7 @@ const mockMovies: Movie[] = [
       "rating": 4.3,
       "numberOfRatings": 7303122,
       "trailer": "https://youtu.be/dQw4w9WgXcQ?si=iBcqlYK4rZF59T2o",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "description": "Alt texttttttttttt 10",
       "actors": [
         {
           "name": "Makary",
@@ -575,7 +575,7 @@ const mockMovies: Movie[] = [
       ],
       "gallery": {
         "url": "assets/images/classic-movie-poster.jpeg",
-        "altText": "anim est sint consectetur voluptate aute eiusmod sunt minim aliquip mollit elit cupidatat ullamco ad ipsum minim"
+        "altText": "sadasada"
       },
       duration: 2,
       "comments": [
