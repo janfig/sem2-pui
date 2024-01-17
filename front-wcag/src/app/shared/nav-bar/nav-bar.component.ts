@@ -4,6 +4,7 @@ import {RouterLink} from "@angular/router";
 import {NgbDropdown, NgbDropdownMenu, NgbDropdownToggle} from "@ng-bootstrap/ng-bootstrap";
 import {FontSizeService} from "../../core/services/font-size.service";
 import {ThemeService} from "../../core/services/theme.service";
+import {MockUserService} from "../../core/mocks/user-mock.service";
 
 @Component({
   selector: 'app-nav-bar',
@@ -18,7 +19,7 @@ export class NavBarComponent {
   private fontSizeService = inject(FontSizeService);
   private themeService = inject(ThemeService);
 
-  constructor() {
+  constructor(public mockUserService: MockUserService) {
   }
 
   setFontSizeSmall(): void {

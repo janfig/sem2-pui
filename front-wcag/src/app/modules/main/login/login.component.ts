@@ -24,14 +24,14 @@ import {Router} from "@angular/router";
           </div>
           <div class="form-group">
             <label for="password">Hasło</label>
-            <input type="pyassword" class="form-control" id="password" name="password" ngModel required>
+            <input type="password" class="form-control" id="password" name="password" ngModel required>
             <div
               *ngIf="loginForm.controls['password']?.invalid && (loginForm.controls['password']?.dirty || loginForm.controls['password']?.touched)"
               class="text-danger validation-alert">
               Musisz podać hasło
             </div>
           </div>
-          <a class="form-group" href="register">Nie masz jeszcze konta? Załóź je tutaj</a>
+          <a class="form-group" href="/register">Nie masz jeszcze konta? Załóź je tutaj</a>
           <br>
           <button type="submit" class="btn btn-primary" [disabled]="!loginForm.valid">Zaloguj</button>
           <div *ngIf="errorMessage" class="text-danger validation-alert">
